@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyTemplate ArchiveVer="4" Game="Prime">
     <PropertyArchetype Type="Struct">
-        <Name>PrimeStruct1</Name>
+        <Name>HorizontalMotion</Name>
+        <Atomic>true</Atomic>
         <SubProperties>
-            <Element Type="Float" ID="0x0">
+            <Element Type="Bool" ID="0x0">
                 <Name>Unknown 1</Name>
             </Element>
             <Element Type="Float" ID="0x1">
@@ -29,21 +30,6 @@
             </Element>
             <Element Type="Float" ID="0x8">
                 <Name>Unknown 9</Name>
-            </Element>
-            <Element Type="Float" ID="0x9">
-                <Name>Unknown 10</Name>
-            </Element>
-            <Element Type="Float" ID="0xA">
-                <Name>Unknown 11</Name>
-            </Element>
-            <Element Type="Float" ID="0xB">
-                <Name>Unknown 12</Name>
-            </Element>
-            <Element Type="Float" ID="0xC">
-                <Name>Unknown 13</Name>
-            </Element>
-            <Element Type="Float" ID="0xD">
-                <Name>Unknown 14</Name>
             </Element>
         </SubProperties>
     </PropertyArchetype>

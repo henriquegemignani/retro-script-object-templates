@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyTemplate ArchiveVer="4" Game="Prime">
     <PropertyArchetype Type="Struct">
-        <Name>PlayerActorStruct</Name>
+        <Name>PathCameraFlags</Name>
         <SubProperties>
             <Element Type="Bool" ID="0x0">
-                <Name>SuitTransition</Name>
+                <Name>IsClosedLoop</Name>
             </Element>
             <Element Type="Bool" ID="0x1">
-                <Name>PreviousSuit</Name>
+                <Name>FixedLookPos</Name>
             </Element>
             <Element Type="Bool" ID="0x2">
-                <Name>ForceReset</Name>
+                <Name>SideView</Name>
             </Element>
             <Element Type="Bool" ID="0x3">
-                <Name>TrackInAreaData</Name>
+                <Name>CameraHeightFromHint</Name>
             </Element>
             <Element Type="Bool" ID="0x4">
-                <Name>KeepInStateManager</Name>
+                <Name>ClampToClosedDoor</Name>
+            </Element>
+            <Element Type="Bool" ID="0x5">
+                <Name>Unused</Name>
             </Element>
         </SubProperties>
     </PropertyArchetype>

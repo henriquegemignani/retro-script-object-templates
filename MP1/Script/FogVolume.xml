@@ -13,10 +13,10 @@
                 <Name>Scale</Name>
             </Element>
             <Element Type="Float" ID="0x3">
-                <Name>FlickerSpeed</Name>
+                <Name>FlickerAmount</Name>
             </Element>
             <Element Type="Float" ID="0x4">
-                <Name>Unknown</Name>
+                <Name>FlickerSpeed</Name>
             </Element>
             <Element Type="Color" ID="0x5">
                 <Name>FogColor</Name>
@@ -26,6 +26,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>7</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

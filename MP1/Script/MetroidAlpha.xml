@@ -6,8 +6,13 @@
             <Element Type="String" ID="0x0">
                 <Name>Name</Name>
             </Element>
-            <Element Type="Int" ID="0x1">
-                <Name>Unknown 1</Name>
+            <Element Type="Choice" ID="0x1">
+                <Name>Flavor</Name>
+                <Values>
+                    <Element Name="Zero" ID="0x0"/>
+                    <Element Name="One" ID="0x1"/>
+                    <Element Name="Two" ID="0x2"/>
+                </Values>
             </Element>
             <Element Type="Vector" ID="0x2">
                 <Name>Position</Name>
@@ -21,46 +26,47 @@
             <Element Type="Struct" ID="0x5" Archetype="PatternedAITypedef"/>
             <Element Type="Struct" ID="0x6" Archetype="ActorParameters"/>
             <Element Type="Struct" ID="0x7" Archetype="DamageVulnerability">
-                <Name>DamageVulnerability 1</Name>
+                <Name>FrozenVulnerability</Name>
             </Element>
             <Element Type="Struct" ID="0x8" Archetype="DamageVulnerability">
-                <Name>DamageVulnerability 2</Name>
+                <Name>EnergyDrainVulnerability</Name>
             </Element>
             <Element Type="Float" ID="0x9">
-                <Name>Unknown 2</Name>
+                <Name>EnergyDrainPerSec</Name>
             </Element>
             <Element Type="Float" ID="0xA">
-                <Name>Unknown 3</Name>
+                <Name>MaxEnergyDrainAllowed</Name>
             </Element>
             <Element Type="Float" ID="0xB">
-                <Name>Unknown 4</Name>
+                <Name>TelegraphAttackTime</Name>
             </Element>
             <Element Type="Float" ID="0xC">
-                <Name>Unknown 5</Name>
+                <Name>Stage2GrowthScale</Name>
             </Element>
             <Element Type="Float" ID="0xD">
-                <Name>Unknown 6</Name>
+                <Name>Stage2GrowthEnergy</Name>
             </Element>
             <Element Type="Float" ID="0xE">
-                <Name>Unknown 7</Name>
+                <Name>ExplosionGrowthEnergy</Name>
             </Element>
             <Element Type="AnimationSet" ID="0xF">
-                <Name>AnimationParameters 1</Name>
+                <Name>RedAnimation</Name>
             </Element>
             <Element Type="AnimationSet" ID="0x10">
-                <Name>AnimationParameters 2</Name>
+                <Name>WhiteAnimation</Name>
             </Element>
             <Element Type="AnimationSet" ID="0x11">
-                <Name>AnimationParameters 3</Name>
+                <Name>PurpleAnimation</Name>
             </Element>
             <Element Type="AnimationSet" ID="0x12">
-                <Name>AnimationParameters 4</Name>
+                <Name>YellowAnimation</Name>
             </Element>
             <Element Type="Bool" ID="0x13">
-                <Name>Unknown 8</Name>
+                <Name>StartsInWall</Name>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>20+</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x02</PositionProperty>

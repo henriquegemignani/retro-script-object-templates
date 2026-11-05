@@ -7,13 +7,14 @@
                 <Name>Name</Name>
             </Element>
             <Element Type="Int" ID="0x1">
-                <Name>Patterned Flavor Type</Name>
+                <Name>FlavorType</Name>
             </Element>
             <Element Type="Vector" ID="0x2">
                 <Name>Position</Name>
             </Element>
             <Element Type="Vector" ID="0x3">
                 <Name>Rotation</Name>
+                <Description>Only the Z rotation is used; the loader zeroes X and Y.</Description>
             </Element>
             <Element Type="Vector" ID="0x4">
                 <Name>Scale</Name>
@@ -24,28 +25,29 @@
                 <Name>Collider</Name>
             </Element>
             <Element Type="Struct" ID="0x8" Archetype="DamageInfo">
-                <Name>DamageInfo 1</Name>
+                <Name>ContactDamage</Name>
             </Element>
             <Element Type="Asset" ID="0x9">
-                <Name>WPSC</Name>
+                <Name>ProjectileWeapon</Name>
                 <TypeFilter>
                     <Element>WPSC</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Struct" ID="0xA" Archetype="DamageInfo">
-                <Name>DamageInfo 2</Name>
+                <Name>ProjectileDamage</Name>
             </Element>
             <Element Type="Asset" ID="0xB">
-                <Name>Particle</Name>
+                <Name>ProjectileVisorParticle</Name>
                 <TypeFilter>
                     <Element>PART</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Sound" ID="0xC">
-                <Name>Unknown 3</Name>
+                <Name>ProjectileVisorSound</Name>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>13</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x02</PositionProperty>

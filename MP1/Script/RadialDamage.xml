@@ -12,12 +12,15 @@
             <Element Type="Bool" ID="0x2">
                 <Name>Active</Name>
             </Element>
-            <Element Type="Struct" ID="0x3" Archetype="DamageInfo"/>
+            <Element Type="Struct" ID="0x3" Archetype="DamageInfo">
+                <Name>Damage</Name>
+            </Element>
             <Element Type="Float" ID="0x4">
                 <Name>Radius</Name>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>5</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

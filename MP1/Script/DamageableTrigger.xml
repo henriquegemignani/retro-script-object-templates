@@ -53,6 +53,7 @@
             <Element Type="Struct" ID="0xB" Archetype="VisorParameters"/>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>12</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

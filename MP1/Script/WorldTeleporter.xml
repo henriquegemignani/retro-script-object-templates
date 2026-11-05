@@ -23,69 +23,107 @@
             </Element>
             <Element Type="AnimationSet" ID="0x4">
                 <Name>Player Model</Name>
+                <LoadCondition>propCount &gt; 4</LoadCondition>
             </Element>
             <Element Type="Vector" ID="0x5">
                 <Name>PlayerScale</Name>
+                <LoadCondition>propCount &gt; 4</LoadCondition>
             </Element>
             <Element Type="Asset" ID="0x6">
                 <Name>PlatformModel</Name>
+                <LoadCondition>propCount &gt; 4</LoadCondition>
                 <TypeFilter>
                     <Element>CMDL</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Vector" ID="0x7">
                 <Name>PlatformScale</Name>
+                <LoadCondition>propCount &gt; 4</LoadCondition>
             </Element>
             <Element Type="Asset" ID="0x8">
                 <Name>BackgroundModel</Name>
+                <LoadCondition>propCount &gt; 4</LoadCondition>
                 <TypeFilter>
                     <Element>CMDL</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Vector" ID="0x9">
                 <Name>BackgroundScale</Name>
+                <LoadCondition>propCount &gt; 4</LoadCondition>
             </Element>
             <Element Type="Bool" ID="0xA">
                 <Name>UpElevator</Name>
+                <LoadCondition>propCount &gt; 4</LoadCondition>
             </Element>
             <Element Type="Sound" ID="0xB">
                 <Name>ElevatorSound</Name>
+                <LoadCondition>propCount &gt;= 12</LoadCondition>
             </Element>
             <Element Type="Int" ID="0xC">
                 <Name>Volume</Name>
+                <LoadCondition>propCount &gt;= 13</LoadCondition>
             </Element>
             <Element Type="Int" ID="0xD">
                 <Name>Panning</Name>
+                <LoadCondition>propCount &gt;= 14</LoadCondition>
             </Element>
             <Element Type="Bool" ID="0xE">
                 <Name>ShowText</Name>
+                <LoadCondition>propCount &gt;= 15</LoadCondition>
             </Element>
             <Element Type="Asset" ID="0xF">
                 <Name>FontID</Name>
+                <LoadCondition>propCount &gt;= 16</LoadCondition>
                 <TypeFilter>
                     <Element>FONT</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Asset" ID="0x10">
                 <Name>StringID</Name>
+                <LoadCondition>propCount &gt;= 17</LoadCondition>
                 <TypeFilter>
                     <Element>STRG</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Bool" ID="0x11">
                 <Name>FadeWhite</Name>
+                <LoadCondition>propCount &gt;= 18</LoadCondition>
             </Element>
             <Element Type="Float" ID="0x12">
                 <Name>CharFadeInTime</Name>
+                <LoadCondition>propCount &gt;= 19</LoadCondition>
             </Element>
             <Element Type="Float" ID="0x13">
-                <Name>CharFadeOutTime</Name>
+                <Name>CharactersPerSecond</Name>
+                <LoadCondition>propCount &gt;= 20</LoadCondition>
             </Element>
             <Element Type="Float" ID="0x14">
                 <Name>ShowDelay</Name>
+                <LoadCondition>propCount &gt;= 21</LoadCondition>
+            </Element>
+            <Element Type="String" ID="0x15">
+                <Name>AudioStream</Name>
+                <LoadCondition>propCount &gt;= 22 (PAL builds only)</LoadCondition>
+            </Element>
+            <Element Type="Bool" ID="0x16">
+                <Name>DisplaySubtitles</Name>
+                <LoadCondition>propCount &gt;= 23 (PAL builds only)</LoadCondition>
+            </Element>
+            <Element Type="Float" ID="0x17">
+                <Name>EndDelay</Name>
+                <LoadCondition>propCount &gt;= 24 (PAL builds only)</LoadCondition>
+            </Element>
+            <Element Type="Float" ID="0x18">
+                <Name>SubtitleFadeInDelay</Name>
+                <LoadCondition>propCount &gt;= 25 (PAL builds only)</LoadCondition>
+            </Element>
+            <Element Type="Float" ID="0x19">
+                <Name>SubtitleFadeTime</Name>
+                <LoadCondition>propCount &gt;= 26 (PAL builds only)</LoadCondition>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>4-26</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <ActiveProperty>0x01</ActiveProperty>

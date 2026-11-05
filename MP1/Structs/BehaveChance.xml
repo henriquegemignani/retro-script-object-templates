@@ -7,7 +7,7 @@
                 <Name>Lurk</Name>
             </Element>
             <Element Type="Float" ID="0x1">
-                <Name>Taunt</Name>
+                <Name>Heckle</Name>
             </Element>
             <Element Type="Float" ID="0x2">
                 <Name>Attack</Name>
@@ -16,13 +16,16 @@
                 <Name>Move</Name>
             </Element>
             <Element Type="Float" ID="0x4">
-                <Name>Lurk Time</Name>
+                <Name>LurkTime</Name>
             </Element>
             <Element Type="Float" ID="0x5">
-                <Name>Charge Attack</Name>
+                <Name>ChargeAttack</Name>
+                <LoadCondition>only read if struct property count &gt; 5 (otherwise defaults to 50)</LoadCondition>
+                <Description>Stored as a percentage; the game multiplies it by 0.01.</Description>
             </Element>
             <Element Type="Int" ID="0x6">
-                <Name>numBolts</Name>
+                <Name>NumBolts</Name>
+                <LoadCondition>only read if struct property count &gt; 6 (otherwise defaults to 2)</LoadCondition>
             </Element>
         </SubProperties>
     </PropertyArchetype>

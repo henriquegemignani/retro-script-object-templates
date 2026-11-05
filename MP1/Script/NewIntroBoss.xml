@@ -18,41 +18,44 @@
             <Element Type="Struct" ID="0x4" Archetype="PatternedAITypedef"/>
             <Element Type="Struct" ID="0x5" Archetype="ActorParameters"/>
             <Element Type="Float" ID="0x6">
-                <Name>Unknown</Name>
+                <Name>MinTurnAngle</Name>
             </Element>
             <Element Type="Asset" ID="0x7">
-                <Name>WPSC 1</Name>
+                <Name>Projectile</Name>
                 <TypeFilter>
                     <Element>WPSC</Element>
                 </TypeFilter>
             </Element>
-            <Element Type="Struct" ID="0x8" Archetype="DamageInfo"/>
+            <Element Type="Struct" ID="0x8" Archetype="DamageInfo">
+                <Name>ProjectileDamage</Name>
+            </Element>
             <Element Type="Asset" ID="0x9">
-                <Name>Particle 1</Name>
+                <Name>BeamContactFx</Name>
                 <TypeFilter>
                     <Element>PART</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Asset" ID="0xA">
-                <Name>Particle 2</Name>
+                <Name>BeamPulseFx</Name>
                 <TypeFilter>
                     <Element>PART</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Asset" ID="0xB">
-                <Name>Texture 1</Name>
+                <Name>BeamTexture</Name>
                 <TypeFilter>
                     <Element>TXTR</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Asset" ID="0xC">
-                <Name>Texture 2</Name>
+                <Name>BeamGlowTexture</Name>
                 <TypeFilter>
                     <Element>TXTR</Element>
                 </TypeFilter>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>13</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

@@ -17,7 +17,9 @@
             </Element>
             <Element Type="Struct" ID="0x4" Archetype="PatternedAITypedef"/>
             <Element Type="Struct" ID="0x5" Archetype="ActorParameters"/>
-            <Element Type="Struct" ID="0x6" Archetype="DamageInfo"/>
+            <Element Type="Struct" ID="0x6" Archetype="DamageInfo">
+                <Name>AttackDamage</Name>
+            </Element>
             <Element Type="Float" ID="0x7">
                 <Name>AttackRadius</Name>
             </Element>
@@ -31,7 +33,7 @@
                 <Name>Unknown 3</Name>
             </Element>
             <Element Type="Float" ID="0xB">
-                <Name>Unknown 4</Name>
+                <Name>AttackDelay</Name>
             </Element>
             <Element Type="Float" ID="0xC">
                 <Name>Unknown 5</Name>
@@ -59,6 +61,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>20</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

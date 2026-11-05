@@ -6,8 +6,16 @@
             <Element Type="String" ID="0x0">
                 <Name>Name</Name>
             </Element>
-            <Element Type="Int" ID="0x1">
+            <Element Type="Choice" ID="0x1">
                 <Name>Mode</Name>
+                <Values>
+                    <Element Name="None" ID="0x0"/>
+                    <Element Name="Linear" ID="0x1"/>
+                    <Element Name="Exp" ID="0x2"/>
+                    <Element Name="Exp2" ID="0x3"/>
+                    <Element Name="RevExp" ID="0x4"/>
+                    <Element Name="RevExp2" ID="0x5"/>
+                </Values>
             </Element>
             <Element Type="Color" ID="0x2">
                 <Name>Color</Name>
@@ -29,6 +37,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>8</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <ActiveProperty>0x07</ActiveProperty>

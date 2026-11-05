@@ -17,11 +17,12 @@
             </Element>
             <Element Type="Struct" ID="0x4" Archetype="ScannableParameters"/>
             <Element Type="Float" ID="0x5">
-                <Name>Unknown</Name>
+                <Name>PointSize</Name>
                 <Description>Affects the size of the scan point.</Description>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>6</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

@@ -16,7 +16,7 @@
                 <Name>RangedCount</Name>
             </Element>
             <Element Type="Int" ID="0x4">
-                <Name>UnknownCount</Name>
+                <Name>HecklerCount</Name>
             </Element>
             <Element Type="Int" ID="0x5">
                 <Name>MaxMeleeAttackerCount</Name>
@@ -29,12 +29,15 @@
             </Element>
             <Element Type="Float" ID="0x8">
                 <Name>MeleeTimeInterval</Name>
+                <LoadCondition>propCount &gt; 8</LoadCondition>
             </Element>
             <Element Type="Float" ID="0x9">
                 <Name>RangedTimeInterval</Name>
+                <LoadCondition>propCount &gt; 8</LoadCondition>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>8+</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
     </EditorProperties>

@@ -10,13 +10,14 @@
                 <Name>Active</Name>
             </Element>
             <Element Type="Bool" ID="0x2">
-                <Name>Open</Name>
+                <Name>IsOpen</Name>
             </Element>
             <Element Type="Bool" ID="0x3">
-                <Name>Close when used?</Name>
+                <Name>IsAutoClose</Name>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>4</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <ActiveProperty>0x01</ActiveProperty>

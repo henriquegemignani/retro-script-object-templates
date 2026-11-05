@@ -21,10 +21,11 @@
                     <Element>WPSC</Element>
                 </TypeFilter>
             </Element>
-            <Element Type="Struct" ID="0x5" Archetype="ScriptBeamStruct"/>
+            <Element Type="Struct" ID="0x5" Archetype="IntroBossAttack"/>
             <Element Type="Struct" ID="0x6" Archetype="DamageInfo"/>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>7</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

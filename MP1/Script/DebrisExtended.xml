@@ -114,6 +114,7 @@
             </Element>
             <Element Type="Vector" ID="0x21">
                 <Name>Particle3Scale</Name>
+                <Description>Read by the loader, but retail uses Particle2Scale for the third particle generator.</Description>
             </Element>
             <Element Type="Int" ID="0x22">
                 <Name>Particle3Orientation</Name>
@@ -132,6 +133,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>39</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

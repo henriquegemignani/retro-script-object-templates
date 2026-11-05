@@ -12,7 +12,7 @@
                 <Description>Whether to render the skybox.</Description>
             </Element>
             <Element Type="Choice" ID="0x2">
-                <Name>FXType </Name>
+                <Name>FXType</Name>
                 <Values>
                     <Element Name="None" ID="0x0"/>
                     <Element Name="Snow" ID="0x1"/>
@@ -21,17 +21,17 @@
                 </Values>
             </Element>
             <Element Type="Float" ID="0x3">
-                <Name>EnvFxDensit</Name>
+                <Name>EnvFxDensity</Name>
                 <Description>Environment effect density.</Description>
             </Element>
             <Element Type="Float" ID="0x4">
-                <Name>thermalHeat</Name>
+                <Name>ThermalHeat</Name>
             </Element>
             <Element Type="Float" ID="0x5">
                 <Name>XRayFogDistance</Name>
             </Element>
             <Element Type="Float" ID="0x6">
-                <Name>WorldLightningLevel</Name>
+                <Name>WorldLightingLevel</Name>
             </Element>
             <Element Type="Asset" ID="0x7">
                 <Name>Skybox</Name>
@@ -49,6 +49,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>9</ExpectedPropertyCount>
     <Assets>
         <Element Type="Billboard" Source="File" Location="script/common/AreaAttributes.TXTR"/>
     </Assets>

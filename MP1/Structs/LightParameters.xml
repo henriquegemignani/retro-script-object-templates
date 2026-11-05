@@ -56,16 +56,21 @@
             </Element>
             <Element Type="Int" ID="0xA">
                 <Name>NumDynamicLights</Name>
+                <LoadCondition>propCount &gt;= 12 (always true: loader requires propCount == 14)</LoadCondition>
             </Element>
             <Element Type="Int" ID="0xB">
                 <Name>NumAreaLights</Name>
+                <LoadCondition>propCount &gt;= 12 (always true: loader requires propCount == 14)</LoadCondition>
             </Element>
             <Element Type="Bool" ID="0xC">
                 <Name>IgnoreAmbientLighting</Name>
+                <LoadCondition>propCount &gt;= 13 (always true: loader requires propCount == 14)</LoadCondition>
             </Element>
             <Element Type="Int" ID="0xD">
                 <Name>UseLightSet</Name>
+                <LoadCondition>propCount &gt;= 14 (always true: loader requires propCount == 14)</LoadCondition>
             </Element>
         </SubProperties>
     </PropertyArchetype>
+    <ExpectedPropertyCount>14</ExpectedPropertyCount>
 </PropertyTemplate>

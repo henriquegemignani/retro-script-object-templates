@@ -16,10 +16,10 @@
                 <Name>Scale</Name>
             </Element>
             <Element Type="Vector" ID="0x4">
-                <Name>Collision Box</Name>
+                <Name>CollisionBox</Name>
             </Element>
             <Element Type="Vector" ID="0x5">
-                <Name>Collision Offset</Name>
+                <Name>CollisionOffset</Name>
             </Element>
             <Element Type="Asset" ID="0x6">
                 <Name>Model</Name>
@@ -62,6 +62,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>19</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

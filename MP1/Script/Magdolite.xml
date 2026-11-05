@@ -18,48 +18,50 @@
             <Element Type="Struct" ID="0x4" Archetype="PatternedAITypedef"/>
             <Element Type="Struct" ID="0x5" Archetype="ActorParameters"/>
             <Element Type="Float" ID="0x6">
-                <Name>Unknown 1</Name>
+                <Name>HeadTrackAngle</Name>
             </Element>
             <Element Type="Float" ID="0x7">
-                <Name>Unknown 2</Name>
+                <Name>LosAngle</Name>
             </Element>
             <Element Type="Struct" ID="0x8" Archetype="DamageInfo">
-                <Name>DamageInfo 1</Name>
+                <Name>FlameThrowerDamage</Name>
             </Element>
             <Element Type="Struct" ID="0x9" Archetype="DamageInfo">
-                <Name>DamageInfo 2</Name>
+                <Name>HeadContactDamage</Name>
             </Element>
             <Element Type="Struct" ID="0xA" Archetype="DamageVulnerability">
-                <Name>DamageVulnerability 1</Name>
+                <Name>HeadVulnerability</Name>
             </Element>
             <Element Type="Struct" ID="0xB" Archetype="DamageVulnerability">
-                <Name>DamageVulnerability 2</Name>
+                <Name>BodyVulnerability</Name>
             </Element>
             <Element Type="Asset" ID="0xC">
-                <Name>Model</Name>
+                <Name>HeadlessModel</Name>
                 <TypeFilter>
                     <Element>CMDL</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Asset" ID="0xD">
-                <Name>CSKR</Name>
+                <Name>HeadlessSkin</Name>
                 <TypeFilter>
                     <Element>CSKR</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Float" ID="0xE">
-                <Name>Unknown 3</Name>
+                <Name>InitialDelay</Name>
             </Element>
             <Element Type="Float" ID="0xF">
-                <Name>Unknown 4</Name>
+                <Name>MinDelay</Name>
             </Element>
             <Element Type="Float" ID="0x10">
-                <Name>Unknown 5</Name>
+                <Name>MaxDelay</Name>
             </Element>
             <Element Type="Float" ID="0x11">
-                <Name>Unknown 6</Name>
+                <Name>MinHP</Name>
             </Element>
-            <Element Type="Struct" ID="0x12" Archetype="MagdoliteStruct"/>
+            <Element Type="Struct" ID="0x12" Archetype="MagdoliteData">
+                <Name>FlameInfo</Name>
+            </Element>
             <Element Type="Float" ID="0x13">
                 <Name>Unknown 12</Name>
             </Element>
@@ -71,6 +73,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>22</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

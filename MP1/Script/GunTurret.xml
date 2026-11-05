@@ -35,22 +35,22 @@
             <Element Type="Struct" ID="0x9" Archetype="HealthInfo"/>
             <Element Type="Struct" ID="0xA" Archetype="DamageVulnerability"/>
             <Element Type="Float" ID="0xB">
-                <Name>IntoActivateDelay</Name>
+                <Name>IntoDeactivateDelay</Name>
             </Element>
             <Element Type="Float" ID="0xC">
-                <Name>ReloadTime</Name>
+                <Name>IntoActivateDelay</Name>
             </Element>
             <Element Type="Float" ID="0xD">
-                <Name>ReloadTimeVariance</Name>
+                <Name>ReloadTime</Name>
             </Element>
             <Element Type="Float" ID="0xE">
-                <Name>PanStartTime</Name>
+                <Name>ReloadTimeVariance</Name>
             </Element>
             <Element Type="Float" ID="0xF">
-                <Name>PanHoldTime</Name>
+                <Name>PanStartTime</Name>
             </Element>
             <Element Type="Float" ID="0x10">
-                <Name>TotalPanSearchTime</Name>
+                <Name>PanHoldTime</Name>
             </Element>
             <Element Type="Float" ID="0x11">
                 <Name>LeftMaxAngle</Name>
@@ -78,6 +78,7 @@
             </Element>
             <Element Type="Bool" ID="0x19">
                 <Name>FreezeTimeout</Name>
+                <LoadCondition>propCount &gt;= 48</LoadCondition>
             </Element>
             <Element Type="Asset" ID="0x1A">
                 <Name>ProjectileRes</Name>
@@ -85,7 +86,9 @@
                     <Element>WPSC</Element>
                 </TypeFilter>
             </Element>
-            <Element Type="Struct" ID="0x1B" Archetype="DamageInfo"/>
+            <Element Type="Struct" ID="0x1B" Archetype="DamageInfo">
+                <Name>ProjectileDamage</Name>
+            </Element>
             <Element Type="Asset" ID="0x1C">
                 <Name>IdleLightRes</Name>
                 <TypeFilter>
@@ -124,6 +127,7 @@
             </Element>
             <Element Type="Asset" ID="0x22">
                 <Name>VisorEffectRes</Name>
+                <LoadCondition>propCount &gt;= 44</LoadCondition>
                 <TypeFilter>
                     <Element>PART</Element>
                 </TypeFilter>
@@ -145,6 +149,7 @@
             </Element>
             <Element Type="Sound" ID="0x28">
                 <Name>VisorSoundID</Name>
+                <LoadCondition>propCount &gt;= 45</LoadCondition>
             </Element>
             <Element Type="Asset" ID="0x29">
                 <Name>ExtensionModelResID</Name>
@@ -166,12 +171,15 @@
             </Element>
             <Element Type="Float" ID="0x2E">
                 <Name>FrenzyDuration</Name>
+                <LoadCondition>propCount &gt;= 47</LoadCondition>
             </Element>
             <Element Type="Bool" ID="0x2F">
                 <Name>ScriptedStartOnly</Name>
+                <LoadCondition>propCount &gt;= 46</LoadCondition>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>43+</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x02</PositionProperty>

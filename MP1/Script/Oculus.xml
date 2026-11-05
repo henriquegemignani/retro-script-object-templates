@@ -18,30 +18,39 @@
             <Element Type="Struct" ID="0x4" Archetype="PatternedAITypedef"/>
             <Element Type="Struct" ID="0x5" Archetype="ActorParameters"/>
             <Element Type="Float" ID="0x6">
-                <Name>Unknown 1</Name>
+                <Name>AdvanceWpRadius</Name>
             </Element>
             <Element Type="Float" ID="0x7">
-                <Name>Unknown 2</Name>
+                <Name>WallTurnSpeed</Name>
             </Element>
             <Element Type="Float" ID="0x8">
-                <Name>Unknown 3</Name>
+                <Name>AlignAngVel</Name>
             </Element>
             <Element Type="Float" ID="0x9">
-                <Name>Unknown 4</Name>
+                <Name>DownTurnSpeed</Name>
             </Element>
             <Element Type="Float" ID="0xA">
-                <Name>Unknown 5</Name>
+                <Name>PlayerObstructionMinDist</Name>
             </Element>
             <Element Type="Float" ID="0xB">
-                <Name>Unknown 6</Name>
+                <Name>HaltDelay</Name>
             </Element>
-            <Element Type="Struct" ID="0xC" Archetype="DamageVulnerability"/>
+            <Element Type="Struct" ID="0xC" Archetype="DamageVulnerability">
+                <Name>HaltVulnerability</Name>
+            </Element>
             <Element Type="Float" ID="0xD">
-                <Name>Unknown 7</Name>
+                <Name>ForwardMoveWeight</Name>
             </Element>
-            <Element Type="Struct" ID="0xE" Archetype="DamageInfo"/>
+            <Element Type="Struct" ID="0xE" Archetype="DamageInfo">
+                <Name>HaltDamageInfo</Name>
+            </Element>
+            <Element Type="Float" ID="0xF">
+                <Name>TouchBoundsScale</Name>
+                <LoadCondition>propCount &gt; 15 (only read by PAL builds; USA v1.088 requires exactly 15)</LoadCondition>
+            </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>15-16</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

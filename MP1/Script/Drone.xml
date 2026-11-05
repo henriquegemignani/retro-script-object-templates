@@ -7,7 +7,7 @@
                 <Name>Name</Name>
             </Element>
             <Element Type="Int" ID="0x1">
-                <Name>Unknown 1</Name>
+                <Name>Flavor</Name>
             </Element>
             <Element Type="Vector" ID="0x2">
                 <Name>Position</Name>
@@ -19,51 +19,51 @@
                 <Name>Scale</Name>
             </Element>
             <Element Type="Float" ID="0x5">
-                <Name>Unknown 2</Name>
+                <Name>TurnSpeed</Name>
             </Element>
             <Element Type="Struct" ID="0x6" Archetype="PatternedAITypedef"/>
             <Element Type="Struct" ID="0x7" Archetype="ActorParameters"/>
             <Element Type="Struct" ID="0x8" Archetype="DamageInfo">
-                <Name>DamageInfo 1</Name>
+                <Name>DamageInfo</Name>
             </Element>
             <Element Type="Int" ID="0x9">
-                <Name>Unknown 3</Name>
+                <Name>Unused1</Name>
             </Element>
             <Element Type="Struct" ID="0xA" Archetype="DamageInfo">
-                <Name>DamageInfo 2</Name>
+                <Name>LaserDamageInfo</Name>
             </Element>
             <Element Type="Asset" ID="0xB">
-                <Name>Particle 1</Name>
+                <Name>LaserParticles</Name>
                 <TypeFilter>
                     <Element>PART</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Asset" ID="0xC">
-                <Name>Particle 2</Name>
+                <Name>Unused2</Name>
                 <TypeFilter>
                     <Element>PART</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Asset" ID="0xD">
-                <Name>Model 1</Name>
+                <Name>ShieldModel</Name>
                 <TypeFilter>
                     <Element>CMDL</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Struct" ID="0xE" Archetype="FlareDef">
-                <Name>FlareDef 1</Name>
+                <Name>Flare1</Name>
             </Element>
             <Element Type="Struct" ID="0xF" Archetype="FlareDef">
-                <Name>FlareDef 2</Name>
+                <Name>Flare2</Name>
             </Element>
             <Element Type="Struct" ID="0x10" Archetype="FlareDef">
-                <Name>FlareDef 3</Name>
+                <Name>Flare3</Name>
             </Element>
             <Element Type="Struct" ID="0x11" Archetype="FlareDef">
-                <Name>FlareDef 4</Name>
+                <Name>Flare4</Name>
             </Element>
             <Element Type="Struct" ID="0x12" Archetype="FlareDef">
-                <Name>FlareDef 5</Name>
+                <Name>Flare5</Name>
             </Element>
             <Element Type="Float" ID="0x13">
                 <Name>Unknown 7</Name>
@@ -123,7 +123,7 @@
                 <Name>Unknown 25</Name>
             </Element>
             <Element Type="Asset" ID="0x26">
-                <Name>CRSC</Name>
+                <Name>CollisionResponse</Name>
                 <TypeFilter>
                     <Element>CRSC</Element>
                 </TypeFilter>
@@ -141,13 +141,14 @@
                 <Name>Unknown 29</Name>
             </Element>
             <Element Type="Sound" ID="0x2B">
-                <Name>Sound</Name>
+                <Name>LaserSound</Name>
             </Element>
             <Element Type="Bool" ID="0x2C">
                 <Name>Unknown 30</Name>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>45</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x02</PositionProperty>

@@ -1,35 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyTemplate ArchiveVer="4" Game="Prime">
     <PropertyArchetype Type="Struct">
-        <Name>RidleyStruct2</Name>
+        <Name>SpindleCameraInterpolant</Name>
         <Atomic>true</Atomic>
         <SubProperties>
             <Element Type="Int" ID="0x0">
-                <Name>Unknown 1</Name>
+                <Name>Input</Name>
             </Element>
-            <Element Type="Float" ID="0x1">
-                <Name>Unknown 2</Name>
+            <Element Type="Int" ID="0x1">
+                <Name>FlagCount</Name>
             </Element>
-            <Element Type="Float" ID="0x2">
-                <Name>Unknown 3</Name>
+            <Element Type="Bool" ID="0x2">
+                <Name>ReflectAboveHighIn</Name>
             </Element>
-            <Element Type="Float" ID="0x3">
-                <Name>Unknown 4</Name>
+            <Element Type="Bool" ID="0x3">
+                <Name>ReflectBelowLowIn</Name>
             </Element>
             <Element Type="Float" ID="0x4">
-                <Name>Unknown 5</Name>
+                <Name>LowOut</Name>
             </Element>
             <Element Type="Float" ID="0x5">
-                <Name>Unknown 6</Name>
+                <Name>HighOut</Name>
             </Element>
             <Element Type="Float" ID="0x6">
-                <Name>Unknown 7</Name>
+                <Name>LowIn</Name>
             </Element>
             <Element Type="Float" ID="0x7">
-                <Name>Unknown 8</Name>
-            </Element>
-            <Element Type="Bool" ID="0x8">
-                <Name>Unknown 9</Name>
+                <Name>HighIn</Name>
             </Element>
         </SubProperties>
     </PropertyArchetype>

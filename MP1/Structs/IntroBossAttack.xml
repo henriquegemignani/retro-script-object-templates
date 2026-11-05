@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyTemplate ArchiveVer="4" Game="Prime">
     <PropertyArchetype Type="Struct">
-        <Name>ScriptBeamStruct</Name>
+        <Name>IntroBossAttack</Name>
         <SubProperties>
             <Element Type="Choice" ID="0x0">
                 <Name>BeamAttributes</Name>

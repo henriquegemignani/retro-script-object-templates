@@ -8,9 +8,11 @@
             </Element>
             <Element Type="Bool" ID="0x1">
                 <Name>Active</Name>
+                <LoadCondition>propCount == 3 reads an unused int before Active, which is then the third property</LoadCondition>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>2-3</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <ActiveProperty>0x01</ActiveProperty>

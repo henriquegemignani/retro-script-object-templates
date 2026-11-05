@@ -69,16 +69,16 @@
                 <Name>KamikazeDamageInfo</Name>
             </Element>
             <Element Type="Float" ID="0x13">
-                <Name>Unknown 7</Name>
+                <Name>SpiralChance</Name>
             </Element>
             <Element Type="Float" ID="0x14">
-                <Name>Unknown 8</Name>
+                <Name>MinimumMissileTime</Name>
             </Element>
             <Element Type="Float" ID="0x15">
-                <Name>Unknown 9</Name>
+                <Name>MissileTimeVariation</Name>
             </Element>
             <Element Type="Float" ID="0x16">
-                <Name>Unknown 10</Name>
+                <Name>FlightThrust</Name>
             </Element>
             <Element Type="Sound" ID="0x17">
                 <Name>RagDollSFX1</Name>
@@ -90,10 +90,10 @@
                 <Name>CoverCheckChance</Name>
             </Element>
             <Element Type="Float" ID="0x1A">
-                <Name>Unknown 14</Name>
+                <Name>IntraBurstShotTime</Name>
             </Element>
             <Element Type="Float" ID="0x1B">
-                <Name>Unknown 15</Name>
+                <Name>IntraBurstShotVariation</Name>
             </Element>
             <Element Type="Asset" ID="0x1C">
                 <Name>ParticleGen1</Name>
@@ -123,13 +123,15 @@
                 <Name>AggressionChance</Name>
             </Element>
             <Element Type="Float" ID="0x22">
-                <Name>Unknown 19</Name>
+                <Name>LandingAggressionChance</Name>
             </Element>
             <Element Type="Float" ID="0x23">
                 <Name>ProjectileHomingDistance</Name>
+                <LoadCondition>propCount &gt; 35 (default 8.0)</LoadCondition>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>35-36</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

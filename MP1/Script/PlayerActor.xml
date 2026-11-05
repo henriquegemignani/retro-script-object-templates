@@ -31,6 +31,7 @@
             <Element Type="Struct" ID="0x9" Archetype="DamageVulnerability"/>
             <Element Type="Asset" ID="0xA">
                 <Name>Model</Name>
+                <Description>Read but not used by the game.</Description>
                 <TypeFilter>
                     <Element>CMDL</Element>
                 </TypeFilter>
@@ -43,7 +44,7 @@
                 <Name>Loop</Name>
             </Element>
             <Element Type="Bool" ID="0xE">
-                <Name>Snow</Name>
+                <Name>Immovable</Name>
             </Element>
             <Element Type="Bool" ID="0xF">
                 <Name>Solid</Name>
@@ -51,7 +52,7 @@
             <Element Type="Bool" ID="0x10">
                 <Name>Active</Name>
             </Element>
-            <Element Type="Struct" ID="0x11" Archetype="PlayerActorStruct"/>
+            <Element Type="Struct" ID="0x11" Archetype="PlayerActorFlags"/>
             <Element Type="Choice" ID="0x12">
                 <Name>Beam</Name>
                 <Values>
@@ -65,6 +66,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>19</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>
@@ -74,7 +76,7 @@
         <LightParametersProperty>0x0C:0x00</LightParametersProperty>
     </EditorProperties>
     <Assets>
-        <Element Type="AnimParams" Source="Property" Location="0x0B" ForceCharacterIndex="2"/>
+        <Element Type="AnimParams" Source="Property" Location="0x0B" ForceCharacterIndex="4"/>
         <Element Type="Model" Source="Property" Location="0x0A"/>
         <Element Type="Model" Source="Property" Location="0x0C:0x02"/>
         <Element Type="Model" Source="Property" Location="0x0C:0x04"/>

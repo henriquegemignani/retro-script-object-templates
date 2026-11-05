@@ -17,4 +17,5 @@
             </Element>
         </SubProperties>
     </PropertyArchetype>
+    <ExpectedPropertyCount>4</ExpectedPropertyCount>
 </PropertyTemplate>

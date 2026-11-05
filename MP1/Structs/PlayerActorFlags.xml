@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyTemplate ArchiveVer="4" Game="Prime">
     <PropertyArchetype Type="Struct">
-        <Name>PathCameraStruct</Name>
+        <Name>PlayerActorFlags</Name>
         <SubProperties>
             <Element Type="Bool" ID="0x0">
-                <Name>IsClosedLoop</Name>
+                <Name>SuitTransition</Name>
             </Element>
             <Element Type="Bool" ID="0x1">
-                <Name>FixedLookPos</Name>
+                <Name>PreviousSuit</Name>
             </Element>
             <Element Type="Bool" ID="0x2">
-                <Name>SideView</Name>
+                <Name>ForceReset</Name>
             </Element>
             <Element Type="Bool" ID="0x3">
-                <Name>CameraHeightFromHint</Name>
+                <Name>TrackInAreaData</Name>
             </Element>
             <Element Type="Bool" ID="0x4">
-                <Name>ClampToClosedDoor</Name>
+                <Name>KeepInStateManager</Name>
             </Element>
             <Element Type="Bool" ID="0x5">
-                <Name>Unused</Name>
+                <Name>DisableProjectedShadow</Name>
+                <LoadCondition>only present in PAL data (struct property count &gt; 5)</LoadCondition>
+                <Description>Only checked by the PAL version, which creates a projected shadow unless this is set.</Description>
             </Element>
         </SubProperties>
     </PropertyArchetype>

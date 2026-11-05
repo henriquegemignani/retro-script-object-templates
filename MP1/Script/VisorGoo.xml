@@ -22,28 +22,29 @@
                 </TypeFilter>
             </Element>
             <Element Type="Float" ID="0x4">
-                <Name>Unknown 1</Name>
+                <Name>MinRange</Name>
             </Element>
             <Element Type="Float" ID="0x5">
-                <Name>Unknown 2</Name>
+                <Name>MaxRange</Name>
             </Element>
             <Element Type="Float" ID="0x6">
-                <Name>Unknown 3</Name>
+                <Name>ChanceAtMinRange</Name>
             </Element>
             <Element Type="Float" ID="0x7">
-                <Name>Unknown 4</Name>
+                <Name>ChanceAtMaxRange</Name>
             </Element>
             <Element Type="Color" ID="0x8">
-                <Name>Unknown 5</Name>
+                <Name>Color</Name>
             </Element>
             <Element Type="Sound" ID="0x9">
                 <Name>Sound</Name>
             </Element>
             <Element Type="Bool" ID="0xA">
-                <Name>Unknown 7</Name>
+                <Name>NoViewCheck</Name>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>11</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

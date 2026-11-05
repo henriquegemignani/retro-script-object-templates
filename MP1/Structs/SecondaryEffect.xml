@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyTemplate ArchiveVer="4" Game="Prime">
     <PropertyArchetype Type="Struct">
-        <Name>PrimeStruct5</Name>
+        <Name>SecondaryEffect</Name>
         <SubProperties>
             <Element Type="Asset" ID="0x0">
                 <Name>Unknown 1</Name>

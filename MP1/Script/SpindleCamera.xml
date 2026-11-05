@@ -15,7 +15,7 @@
             <Element Type="Bool" ID="0x3">
                 <Name>Active</Name>
             </Element>
-            <Element Type="Struct" ID="0x4" Archetype="PlayerHintStruct"/>
+            <Element Type="Struct" ID="0x4" Archetype="PlayerHintFlags"/>
             <Element Type="Float" ID="0x5">
                 <Name>HintToCamDistMin </Name>
             </Element>
@@ -28,53 +28,54 @@
             <Element Type="Float" ID="0x8">
                 <Name>HintToCamVOffMax</Name>
             </Element>
-            <Element Type="Struct" ID="0x9" Archetype="SpindleCameraStruct">
+            <Element Type="Struct" ID="0x9" Archetype="SpindleCameraInterpolant">
                 <Name>TargetHintToCamDeltaAngleVel</Name>
             </Element>
-            <Element Type="Struct" ID="0xA" Archetype="SpindleCameraStruct">
+            <Element Type="Struct" ID="0xA" Archetype="SpindleCameraInterpolant">
                 <Name>DeltaAngleScaleWithCamDist</Name>
             </Element>
-            <Element Type="Struct" ID="0xB" Archetype="SpindleCameraStruct">
+            <Element Type="Struct" ID="0xB" Archetype="SpindleCameraInterpolant">
                 <Name>HintToCamDist</Name>
             </Element>
-            <Element Type="Struct" ID="0xC" Archetype="SpindleCameraStruct">
+            <Element Type="Struct" ID="0xC" Archetype="SpindleCameraInterpolant">
                 <Name>DistOffsetFromBallDist</Name>
             </Element>
-            <Element Type="Struct" ID="0xD" Archetype="SpindleCameraStruct">
+            <Element Type="Struct" ID="0xD" Archetype="SpindleCameraInterpolant">
                 <Name>HintBallToCamAzimuth</Name>
             </Element>
-            <Element Type="Struct" ID="0xE" Archetype="SpindleCameraStruct">
+            <Element Type="Struct" ID="0xE" Archetype="SpindleCameraInterpolant">
                 <Name>unused</Name>
             </Element>
-            <Element Type="Struct" ID="0xF" Archetype="SpindleCameraStruct">
+            <Element Type="Struct" ID="0xF" Archetype="SpindleCameraInterpolant">
                 <Name>MaxHintBallToCamAzimuth</Name>
             </Element>
-            <Element Type="Struct" ID="0x10" Archetype="SpindleCameraStruct">
+            <Element Type="Struct" ID="0x10" Archetype="SpindleCameraInterpolant">
                 <Name>CamLookRelAzimuth</Name>
             </Element>
-            <Element Type="Struct" ID="0x11" Archetype="SpindleCameraStruct">
+            <Element Type="Struct" ID="0x11" Archetype="SpindleCameraInterpolant">
                 <Name>LookPosZOffset</Name>
             </Element>
-            <Element Type="Struct" ID="0x12" Archetype="SpindleCameraStruct">
+            <Element Type="Struct" ID="0x12" Archetype="SpindleCameraInterpolant">
                 <Name>CamPosZOffset</Name>
             </Element>
-            <Element Type="Struct" ID="0x13" Archetype="SpindleCameraStruct">
+            <Element Type="Struct" ID="0x13" Archetype="SpindleCameraInterpolant">
                 <Name>ClampedAzimuthFromHintDir</Name>
             </Element>
-            <Element Type="Struct" ID="0x14" Archetype="SpindleCameraStruct">
+            <Element Type="Struct" ID="0x14" Archetype="SpindleCameraInterpolant">
                 <Name>DampingAzimuthSpeed</Name>
             </Element>
-            <Element Type="Struct" ID="0x15" Archetype="SpindleCameraStruct">
+            <Element Type="Struct" ID="0x15" Archetype="SpindleCameraInterpolant">
                 <Name>TargetHintToCamDeltaAngleVelRange</Name>
             </Element>
-            <Element Type="Struct" ID="0x16" Archetype="SpindleCameraStruct">
+            <Element Type="Struct" ID="0x16" Archetype="SpindleCameraInterpolant">
                 <Name>DeleteHintBallDist</Name>
             </Element>
-            <Element Type="Struct" ID="0x17" Archetype="SpindleCameraStruct">
+            <Element Type="Struct" ID="0x17" Archetype="SpindleCameraInterpolant">
                 <Name>RecoverClampedAzimuthFromHintDir</Name>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>24</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

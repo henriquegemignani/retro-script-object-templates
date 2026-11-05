@@ -4,13 +4,16 @@
         <Name>VisorParameters</Name>
         <SubProperties>
             <Element Type="Bool" ID="0x0">
-                <Name>Unknown</Name>
+                <Name>MaterialFlag46</Name>
+                <Description>Applies material type 46 (unknown).</Description>
             </Element>
             <Element Type="Bool" ID="0x1">
                 <Name>ScanThrough</Name>
+                <LoadCondition>propCount &gt; 2 (with propCount == 2 the second property is the visor mask instead)</LoadCondition>
             </Element>
             <Element Type="Flags" ID="0x2">
                 <Name>VisorFlags</Name>
+                <LoadCondition>propCount &gt;= 2</LoadCondition>
                 <Flags>
                     <Element Name="Combat" Mask="0x1"/>
                     <Element Name="Scan" Mask="0x2"/>
@@ -20,4 +23,5 @@
             </Element>
         </SubProperties>
     </PropertyArchetype>
+    <ExpectedPropertyCount>1-3</ExpectedPropertyCount>
 </PropertyTemplate>

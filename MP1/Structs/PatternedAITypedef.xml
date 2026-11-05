@@ -65,13 +65,13 @@
                 <Name>Step Up Height</Name>
             </Element>
             <Element Type="Float" ID="0x15">
-                <Name>xDamage</Name>
+                <Name>XDamage</Name>
             </Element>
             <Element Type="Float" ID="0x16">
-                <Name>frozenX Damage</Name>
+                <Name>FrozenXDamage</Name>
             </Element>
             <Element Type="Float" ID="0x17">
-                <Name>xDamage Delay</Name>
+                <Name>XDamageDelay</Name>
             </Element>
             <Element Type="Sound" ID="0x18">
                 <Name>Death Sound</Name>
@@ -101,7 +101,7 @@
                 <Name>Path Finding Index</Name>
             </Element>
             <Element Type="Vector" ID="0x20">
-                <Name>Particle 2 Scale</Name>
+                <Name>Particle 1 Scale</Name>
             </Element>
             <Element Type="Asset" ID="0x21">
                 <Name>Particle 1</Name>
@@ -109,21 +109,28 @@
                     <Element>PART</Element>
                 </TypeFilter>
             </Element>
-            <Element Type="Int" ID="0x22">
+            <Element Type="Asset" ID="0x22">
                 <Name>Electric</Name>
+                <TypeFilter>
+                    <Element>ELSC</Element>
+                </TypeFilter>
             </Element>
             <Element Type="Vector" ID="0x23">
                 <Name>Particle 2 Scale</Name>
+                <LoadCondition>struct propCount &gt;= 36 (default zero vector)</LoadCondition>
             </Element>
             <Element Type="Asset" ID="0x24">
                 <Name>Particle 2</Name>
+                <LoadCondition>struct propCount &gt;= 37 (default invalid asset)</LoadCondition>
                 <TypeFilter>
                     <Element>PART</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Sound" ID="0x25">
                 <Name>Ice Shatter Sound</Name>
+                <LoadCondition>struct propCount &gt;= 38 (default invalid sound)</LoadCondition>
             </Element>
         </SubProperties>
     </PropertyArchetype>
+    <ExpectedPropertyCount>35-38</ExpectedPropertyCount>
 </PropertyTemplate>

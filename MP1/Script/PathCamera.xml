@@ -15,7 +15,7 @@
             <Element Type="Bool" ID="0x3">
                 <Name>Active</Name>
             </Element>
-            <Element Type="Struct" ID="0x4" Archetype="PathCameraStruct"/>
+            <Element Type="Struct" ID="0x4" Archetype="PathCameraFlags"/>
             <Element Type="Float" ID="0x5">
                 <Name>LengthExtent</Name>
             </Element>
@@ -35,13 +35,14 @@
                 </Values>
             </Element>
             <Element Type="Float" ID="0x9">
-                <Name>MinEaseDist </Name>
+                <Name>MinEaseDist</Name>
             </Element>
             <Element Type="Float" ID="0xA">
-                <Name>MaxEaseDist </Name>
+                <Name>MaxEaseDist</Name>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>0-15</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

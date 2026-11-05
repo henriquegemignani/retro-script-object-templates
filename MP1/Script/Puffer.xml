@@ -18,43 +18,44 @@
             <Element Type="Struct" ID="0x4" Archetype="PatternedAITypedef"/>
             <Element Type="Struct" ID="0x5" Archetype="ActorParameters"/>
             <Element Type="Float" ID="0x6">
-                <Name>Unknown 1</Name>
+                <Name>HoverSpeed</Name>
             </Element>
             <Element Type="Asset" ID="0x7">
-                <Name>Particle</Name>
+                <Name>CloudEffect</Name>
                 <TypeFilter>
                     <Element>PART</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Struct" ID="0x8" Archetype="DamageInfo">
-                <Name>DamageInfo 1</Name>
+                <Name>CloudDamage</Name>
             </Element>
             <Element Type="Asset" ID="0x9">
-                <Name>Texture</Name>
+                <Name>CloudSteam</Name>
                 <TypeFilter>
                     <Element>TXTR</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Float" ID="0xA">
-                <Name>Unknown 2</Name>
+                <Name>CloudSteamAlpha</Name>
             </Element>
             <Element Type="Bool" ID="0xB">
-                <Name>Unknown 3</Name>
+                <Name>CloudVisibilityFlag1</Name>
             </Element>
             <Element Type="Bool" ID="0xC">
-                <Name>Unknown 4</Name>
+                <Name>CloudVisibilityFlag2</Name>
             </Element>
             <Element Type="Bool" ID="0xD">
-                <Name>Unknown 5</Name>
+                <Name>CloudVisibilityFlag3</Name>
             </Element>
             <Element Type="Struct" ID="0xE" Archetype="DamageInfo">
-                <Name>DamageInfo 2</Name>
+                <Name>ExplosionDamage</Name>
             </Element>
             <Element Type="Sound" ID="0xF">
-                <Name>Unknown 6</Name>
+                <Name>Sound_Turn</Name>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>16</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

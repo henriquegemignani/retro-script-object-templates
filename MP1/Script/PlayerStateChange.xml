@@ -9,7 +9,9 @@
             <Element Type="Bool" ID="0x1">
                 <Name>Active</Name>
             </Element>
-            <Element Type="Choice" ID="0x2" Archetype="PlayerItem"/>
+            <Element Type="Choice" ID="0x2" Archetype="PlayerItem">
+                <Name>ItemToChange</Name>
+            </Element>
             <Element Type="Int" ID="0x3">
                 <Name>Amount</Name>
             </Element>
@@ -17,13 +19,14 @@
                 <Name>Capacity</Name>
             </Element>
             <Element Type="Int" ID="0x5">
-                <Name>Unknown 4</Name>
+                <Name>Command</Name>
             </Element>
             <Element Type="Int" ID="0x6">
-                <Name>Unknown 5</Name>
+                <Name>CommandAction</Name>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>7</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <ActiveProperty>0x01</ActiveProperty>

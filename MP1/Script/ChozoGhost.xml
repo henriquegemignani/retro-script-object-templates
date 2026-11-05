@@ -69,13 +69,20 @@
                 <Name>Sound_PhazeOut</Name>
             </Element>
             <Element Type="Int" ID="0x15">
-                <Name>Unknown</Name>
+                <Name>BehaviorFlags</Name>
+                <Description>Bit 0x2: flinch enabled; bit 0x1: initial behavior enabled.</Description>
             </Element>
             <Element Type="Float" ID="0x16">
                 <Name>ProjectileStopHomingRange</Name>
             </Element>
-            <Element Type="Int" ID="0x17">
+            <Element Type="Choice" ID="0x17">
                 <Name>StartStyle</Name>
+                <Values>
+                    <Element Name="Drop" ID="0x0"/>
+                    <Element Name="Rise" ID="0x1"/>
+                    <Element Name="ThroughWall" ID="0x2"/>
+                    <Element Name="Lurk" ID="0x3"/>
+                </Values>
             </Element>
             <Element Type="Float" ID="0x18">
                 <Name>HurlRecoverTime</Name>
@@ -103,6 +110,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>31</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

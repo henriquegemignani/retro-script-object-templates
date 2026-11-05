@@ -17,71 +17,74 @@
             </Element>
             <Element Type="Struct" ID="0x4" Archetype="PatternedAITypedef"/>
             <Element Type="Struct" ID="0x5" Archetype="ActorParameters">
-                <Name>ActorParameters 1</Name>
+                <Name>ActorParameters</Name>
             </Element>
             <Element Type="Float" ID="0x6">
-                <Name>Unknown 1</Name>
+                <Name>SmallScale</Name>
             </Element>
             <Element Type="Float" ID="0x7">
-                <Name>Unknown 2</Name>
+                <Name>LargeScale</Name>
             </Element>
             <Element Type="Float" ID="0x8">
-                <Name>Unknown 3</Name>
+                <Name>RetreatTime</Name>
             </Element>
             <Element Type="Float" ID="0x9">
-                <Name>FaintDuration</Name>
+                <Name>FaintToSmallHP</Name>
             </Element>
-            <Element Type="Struct" ID="0xA" Archetype="DamageVulnerability"/>
+            <Element Type="Struct" ID="0xA" Archetype="DamageVulnerability">
+                <Name>SnakeVulnerability</Name>
+            </Element>
             <Element Type="Asset" ID="0xB">
-                <Name>WPSC 1</Name>
+                <Name>Projectile</Name>
                 <TypeFilter>
                     <Element>WPSC</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Struct" ID="0xC" Archetype="DamageInfo">
-                <Name>DamageInfo 1</Name>
+                <Name>ProjectileDamage</Name>
             </Element>
             <Element Type="Asset" ID="0xD">
-                <Name>WPSC 2</Name>
+                <Name>ChargedProjectile</Name>
                 <TypeFilter>
                     <Element>WPSC</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Struct" ID="0xE" Archetype="DamageInfo">
-                <Name>DamageInfo 2</Name>
+                <Name>ChargedProjectileDamage</Name>
             </Element>
             <Element Type="Asset" ID="0xF">
-                <Name>PlantsParticleGenDescID</Name>
+                <Name>GrowingPlants</Name>
                 <TypeFilter>
                     <Element>PART</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Struct" ID="0x10" Archetype="DamageInfo">
-                <Name>DamageInfo 3</Name>
+                <Name>BombSlotDamage</Name>
             </Element>
             <Element Type="Struct" ID="0x11" Archetype="ActorParameters">
-                <Name>ActorParameters 2</Name>
+                <Name>PlantsActorParameters</Name>
             </Element>
             <Element Type="Float" ID="0x12">
-                <Name>Unknown 5</Name>
+                <Name>RetreatHP</Name>
             </Element>
             <Element Type="Float" ID="0x13">
-                <Name>Unknown 6</Name>
+                <Name>DizzyDuration</Name>
             </Element>
             <Element Type="Float" ID="0x14">
-                <Name>Unknown 7</Name>
+                <Name>CoverCooldown</Name>
             </Element>
             <Element Type="AnimationSet" ID="0x15">
                 <Name>AnimationParameters</Name>
             </Element>
             <Element Type="Asset" ID="0x16">
-                <Name>DGRP</Name>
+                <Name>DependencyGroup</Name>
                 <TypeFilter>
                     <Element>DGRP</Element>
                 </TypeFilter>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>23+</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

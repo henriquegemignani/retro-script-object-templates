@@ -18,73 +18,74 @@
             <Element Type="Struct" ID="0x4" Archetype="PatternedAITypedef"/>
             <Element Type="Struct" ID="0x5" Archetype="ActorParameters"/>
             <Element Type="Struct" ID="0x6" Archetype="DamageVulnerability">
-                <Name>DamageVulnerability 1</Name>
+                <Name>FrozenVulnerability</Name>
             </Element>
             <Element Type="Struct" ID="0x7" Archetype="DamageVulnerability">
-                <Name>DamageVulnerability 2</Name>
+                <Name>EnergyDrainVulnerability</Name>
             </Element>
             <Element Type="Float" ID="0x8">
-                <Name>Unknown 1</Name>
+                <Name>EnergyDrainPerSec</Name>
             </Element>
             <Element Type="Float" ID="0x9">
-                <Name>Unknown 2</Name>
+                <Name>MaxEnergyDrainAllowed</Name>
             </Element>
             <Element Type="Float" ID="0xA">
-                <Name>Unknown 3</Name>
+                <Name>BreakLeashEnergyDrain</Name>
             </Element>
             <Element Type="Float" ID="0xB">
-                <Name>Unknown 4</Name>
+                <Name>TelegraphAttackTime</Name>
             </Element>
             <Element Type="Float" ID="0xC">
-                <Name>Unknown 5</Name>
+                <Name>SpecialAttackTime</Name>
             </Element>
             <Element Type="Float" ID="0xD">
-                <Name>Unknown 6</Name>
+                <Name>Unknown</Name>
             </Element>
             <Element Type="Float" ID="0xE">
-                <Name>Unknown 7</Name>
+                <Name>MaxGrowthScale</Name>
             </Element>
             <Element Type="Float" ID="0xF">
-                <Name>Unknown 8</Name>
+                <Name>Stage2GrowthEnergy</Name>
             </Element>
             <Element Type="Float" ID="0x10">
-                <Name>Unknown 9</Name>
+                <Name>Stage3GrowthEnergy</Name>
             </Element>
             <Element Type="Asset" ID="0x11">
-                <Name>Particle 1</Name>
+                <Name>ElectricParticle</Name>
                 <TypeFilter>
                     <Element>PART</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Asset" ID="0x12">
-                <Name>SWHC</Name>
+                <Name>ElectricSwooshEffect</Name>
                 <TypeFilter>
                     <Element>SWHC</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Asset" ID="0x13">
-                <Name>Particle 2</Name>
+                <Name>ElectricMorphBallHitEffect</Name>
                 <TypeFilter>
                     <Element>PART</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Asset" ID="0x14">
-                <Name>Particle 3</Name>
+                <Name>ElectricGunHitEffect</Name>
                 <TypeFilter>
                     <Element>PART</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Asset" ID="0x15">
-                <Name>Particle 4</Name>
+                <Name>ElectricGunFeedback</Name>
                 <TypeFilter>
                     <Element>PART</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Bool" ID="0x16">
-                <Name>Unknown 10</Name>
+                <Name>StartsInWall</Name>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>23+</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

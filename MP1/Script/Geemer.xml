@@ -21,13 +21,13 @@
                 <Name>AdvanceWpRadius</Name>
             </Element>
             <Element Type="Float" ID="0x7">
-                <Name>Unknown 2</Name>
+                <Name>WallTurnSpeed</Name>
             </Element>
             <Element Type="Float" ID="0x8">
                 <Name>AlignAngVel</Name>
             </Element>
             <Element Type="Float" ID="0x9">
-                <Name>Unknown 4</Name>
+                <Name>DownTurnSpeed</Name>
             </Element>
             <Element Type="Float" ID="0xA">
                 <Name>PlayerObstructionMinDist</Name>
@@ -49,6 +49,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>16</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

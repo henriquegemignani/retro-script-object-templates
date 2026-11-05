@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyTemplate ArchiveVer="4" Game="Prime">
+    <PropertyArchetype Type="Struct">
+        <Name>HorizontalMotion2</Name>
+        <Atomic>true</Atomic>
+        <SubProperties>
+            <Element Type="Int" ID="0x0">
+                <Name>ModulationFlagCount</Name>
+            </Element>
+            <Element Type="Bool" ID="0x1">
+                <Name>UseModulation</Name>
+            </Element>
+            <Element Type="Int" ID="0x2">
+                <Name>AmplitudeFlagCount</Name>
+            </Element>
+            <Element Type="Bool" ID="0x3">
+                <Name>AmplitudeIgnoreEnvelope</Name>
+            </Element>
+            <Element Type="Float" ID="0x4">
+                <Name>AmplitudeAttackTime</Name>
+            </Element>
+            <Element Type="Float" ID="0x5">
+                <Name>AmplitudeSustainTime</Name>
+            </Element>
+            <Element Type="Float" ID="0x6">
+                <Name>AmplitudeDuration</Name>
+            </Element>
+            <Element Type="Float" ID="0x7">
+                <Name>AmplitudeMagnitude</Name>
+            </Element>
+            <Element Type="Int" ID="0x8">
+                <Name>FrequencyFlagCount</Name>
+            </Element>
+            <Element Type="Bool" ID="0x9">
+                <Name>FrequencyIgnoreEnvelope</Name>
+            </Element>
+            <Element Type="Float" ID="0xA">
+                <Name>FrequencyAttackTime</Name>
+            </Element>
+            <Element Type="Float" ID="0xB">
+                <Name>FrequencySustainTime</Name>
+            </Element>
+            <Element Type="Float" ID="0xC">
+                <Name>FrequencyDuration</Name>
+            </Element>
+            <Element Type="Float" ID="0xD">
+                <Name>FrequencyMagnitude</Name>
+            </Element>
+        </SubProperties>
+    </PropertyArchetype>
+</PropertyTemplate>

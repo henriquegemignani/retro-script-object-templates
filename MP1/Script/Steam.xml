@@ -14,13 +14,33 @@
             </Element>
             <Element Type="Struct" ID="0x3" Archetype="DamageInfo"/>
             <Element Type="Vector" ID="0x4">
-                <Name>Unknown 1</Name>
+                <Name>Force</Name>
             </Element>
-            <Element Type="Int" ID="0x5">
-                <Name>Unknown 2</Name>
+            <Element Type="Flags" ID="0x5">
+                <Name>Flags</Name>
+                <Flags>
+                    <Element Name="DetectPlayer" Mask="0x1"/>
+                    <Element Name="DetectAI" Mask="0x2"/>
+                    <Element Name="DetectProjectiles1" Mask="0x4"/>
+                    <Element Name="DetectProjectiles2" Mask="0x8"/>
+                    <Element Name="DetectProjectiles3" Mask="0x10"/>
+                    <Element Name="DetectProjectiles4" Mask="0x20"/>
+                    <Element Name="DetectBombs" Mask="0x40"/>
+                    <Element Name="DetectPowerBombs" Mask="0x80"/>
+                    <Element Name="DetectProjectiles5" Mask="0x100"/>
+                    <Element Name="DetectProjectiles6" Mask="0x200"/>
+                    <Element Name="DetectProjectiles7" Mask="0x400"/>
+                    <Element Name="KillOnEntered" Mask="0x800"/>
+                    <Element Name="DetectMorphedPlayer" Mask="0x1000"/>
+                    <Element Name="UseCollisionImpulses" Mask="0x2000"/>
+                    <Element Name="DetectCamera" Mask="0x4000"/>
+                    <Element Name="UseBooleanIntersection" Mask="0x8000"/>
+                    <Element Name="DetectUnmorphedPlayer" Mask="0x10000"/>
+                    <Element Name="BlockEnvironmentalEffects" Mask="0x20000"/>
+                </Flags>
             </Element>
             <Element Type="Bool" ID="0x6">
-                <Name>Unknown 3</Name>
+                <Name>Active</Name>
             </Element>
             <Element Type="Asset" ID="0x7">
                 <Name>Texture</Name>
@@ -29,16 +49,20 @@
                 </TypeFilter>
             </Element>
             <Element Type="Struct" ID="0x8" Archetype="GuessStruct">
-                <Name>GuessStruct 1</Name>
+                <Name>StrengthAndFadeIn</Name>
+                <Description>Atomic float pair read as two consecutive floats: Strength, then FadeInTime (stored as FadeInTime / Strength).</Description>
             </Element>
             <Element Type="Struct" ID="0x9" Archetype="GuessStruct">
-                <Name>GuessStruct 2</Name>
+                <Name>FadeOutAndMaxDistance</Name>
+                <Description>Atomic float pair read as two consecutive floats: FadeOutTime (stored as FadeOutTime / Strength), then MaxDistance (0 = use smallest half-extent of the volume).</Description>
             </Element>
             <Element Type="Bool" ID="0xA">
-                <Name>Unknown 8</Name>
+                <Name>NoThermalEffect</Name>
+                <Description>When true the steam does not affect the Thermal Visor.</Description>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>11</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

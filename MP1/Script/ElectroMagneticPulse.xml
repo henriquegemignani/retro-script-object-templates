@@ -28,13 +28,13 @@
                 <Name>InterferenceDur</Name>
             </Element>
             <Element Type="Float" ID="0x8">
-                <Name>Unknown</Name>
+                <Name>MaxHudDisableTime</Name>
             </Element>
             <Element Type="Float" ID="0x9">
                 <Name>InterferenceMag</Name>
             </Element>
             <Element Type="Float" ID="0xA">
-                <Name>Unknown</Name>
+                <Name>MaxHudDisableAmount</Name>
             </Element>
             <Element Type="Asset" ID="0xB">
                 <Name>Particle</Name>
@@ -44,6 +44,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>12</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

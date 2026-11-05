@@ -128,11 +128,12 @@
             <Element Type="Asset" ID="0x20">
                 <Name>FlamePlayerIceTexture</Name>
                 <TypeFilter>
-                    <Element>PART</Element>
+                    <Element>TXTR</Element>
                 </TypeFilter>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>33+</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

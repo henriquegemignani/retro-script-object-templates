@@ -10,46 +10,48 @@
                 <Name>Position</Name>
             </Element>
             <Element Type="Bool" ID="0x2">
-                <Name>Unknown 1</Name>
+                <Name>Active</Name>
             </Element>
             <Element Type="Int" ID="0x3">
-                <Name>Unknown 2</Name>
+                <Name>BlendMode</Name>
             </Element>
             <Element Type="Bool" ID="0x4">
-                <Name>Unknown 3</Name>
+                <Name>ConstantScale</Name>
             </Element>
             <Element Type="Float" ID="0x5">
-                <Name>Unknown 4</Name>
+                <Name>FadeTime</Name>
             </Element>
             <Element Type="Float" ID="0x6">
-                <Name>Unknown 5</Name>
+                <Name>FadeFactor</Name>
             </Element>
             <Element Type="Float" ID="0x7">
-                <Name>Unknown 6</Name>
+                <Name>RotateFactor</Name>
             </Element>
             <Element Type="Int" ID="0x8">
-                <Name>Unknown 7</Name>
+                <Name>CombatVisorMode</Name>
             </Element>
             <Element Type="Struct" ID="0x9" Archetype="FlareDef">
-                <Name>FlareDef 1</Name>
+                <Name>Flare1</Name>
             </Element>
             <Element Type="Struct" ID="0xA" Archetype="FlareDef">
-                <Name>FlareDef 2</Name>
+                <Name>Flare2</Name>
             </Element>
             <Element Type="Struct" ID="0xB" Archetype="FlareDef">
-                <Name>FlareDef 3</Name>
+                <Name>Flare3</Name>
             </Element>
             <Element Type="Struct" ID="0xC" Archetype="FlareDef">
-                <Name>FlareDef 4</Name>
+                <Name>Flare4</Name>
             </Element>
             <Element Type="Struct" ID="0xD" Archetype="FlareDef">
-                <Name>FlareDef 5</Name>
+                <Name>Flare5</Name>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>14</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>
+        <ActiveProperty>0x02</ActiveProperty>
     </EditorProperties>
     <Assets>
         <Element Type="Billboard" Source="File" Location="script/common/VisorFlare.TXTR"/>

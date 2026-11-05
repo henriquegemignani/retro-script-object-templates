@@ -18,19 +18,20 @@
             <Element Type="Struct" ID="0x4" Archetype="PatternedAITypedef"/>
             <Element Type="Struct" ID="0x5" Archetype="ActorParameters"/>
             <Element Type="Float" ID="0x6">
-                <Name>Unknown 1</Name>
+                <Name>AttractForce</Name>
             </Element>
             <Element Type="Float" ID="0x7">
-                <Name>Unknown 2</Name>
+                <Name>AttractAngle</Name>
             </Element>
             <Element Type="Float" ID="0x8">
-                <Name>Unknown 3</Name>
+                <Name>AttractDistance</Name>
             </Element>
             <Element Type="Float" ID="0x9">
-                <Name>Unknown 4</Name>
+                <Name>ShotForce</Name>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>10</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

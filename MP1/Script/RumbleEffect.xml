@@ -10,17 +10,18 @@
                 <Name>Position</Name>
             </Element>
             <Element Type="Bool" ID="0x2">
-                <Name>Unknown 1</Name>
+                <Name>Active</Name>
             </Element>
             <Element Type="Float" ID="0x3">
-                <Name>Unknown 2</Name>
+                <Name>Radius</Name>
             </Element>
             <Element Type="Int" ID="0x4">
-                <Name>Unknown 3</Name>
+                <Name>Effect</Name>
             </Element>
-            <Element Type="Struct" ID="0x5" Archetype="RumbleEffectStruct"/>
+            <Element Type="Struct" ID="0x5" Archetype="RumbleEffectFlags"/>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>6</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

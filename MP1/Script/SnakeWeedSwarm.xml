@@ -26,10 +26,10 @@
                 <Name>Height</Name>
             </Element>
             <Element Type="Float" ID="0x8">
-                <Name>Unknown</Name>
+                <Name>LocationVariance</Name>
             </Element>
             <Element Type="Float" ID="0x9">
-                <Name>WeaponDamageRadius </Name>
+                <Name>WeaponDamageRadius</Name>
             </Element>
             <Element Type="Float" ID="0xA">
                 <Name>MaxPlayerDistance</Name>
@@ -38,10 +38,10 @@
                 <Name>LoweredTime</Name>
             </Element>
             <Element Type="Float" ID="0xC">
-                <Name>LoweredTimeVariation </Name>
+                <Name>LoweredTimeVariation</Name>
             </Element>
             <Element Type="Float" ID="0xD">
-                <Name>MaxZOffset</Name>
+                <Name>RetreatDepth</Name>
             </Element>
             <Element Type="Float" ID="0xE">
                 <Name>Speed</Name>
@@ -50,7 +50,7 @@
                 <Name>SpeedVariation</Name>
             </Element>
             <Element Type="Float" ID="0x10">
-                <Name>Unknown</Name>
+                <Name>MaxSlope</Name>
             </Element>
             <Element Type="Float" ID="0x11">
                 <Name>ScaleMin</Name>
@@ -63,7 +63,7 @@
             </Element>
             <Element Type="Struct" ID="0x14" Archetype="DamageInfo"/>
             <Element Type="Float" ID="0x15">
-                <Name>unused</Name>
+                <Name>DamageWaitTime</Name>
             </Element>
             <Element Type="Sound" ID="0x16">
                 <Name>Sfx1</Name>
@@ -74,8 +74,31 @@
             <Element Type="Sound" ID="0x18">
                 <Name>Sfx3</Name>
             </Element>
+            <Element Type="Asset" ID="0x19">
+                <Name>RetreatParticle</Name>
+                <LoadCondition>propCount &gt;= 29</LoadCondition>
+                <TypeFilter>
+                    <Element>PART</Element>
+                </TypeFilter>
+            </Element>
+            <Element Type="Int" ID="0x1A">
+                <Name>RetreatParticleCount</Name>
+                <LoadCondition>propCount &gt;= 29</LoadCondition>
+            </Element>
+            <Element Type="Asset" ID="0x1B">
+                <Name>ContinuousParticle</Name>
+                <LoadCondition>propCount &gt;= 29</LoadCondition>
+                <TypeFilter>
+                    <Element>PART</Element>
+                </TypeFilter>
+            </Element>
+            <Element Type="Float" ID="0x1C">
+                <Name>Unknown</Name>
+                <LoadCondition>propCount &gt;= 29</LoadCondition>
+            </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>25-29</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

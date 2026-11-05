@@ -20,108 +20,113 @@
             </Element>
             <Element Type="Struct" ID="0x5" Archetype="ActorParameters"/>
             <Element Type="Int" ID="0x6">
-                <Name>Unknown 1</Name>
+                <Name>Flavor</Name>
             </Element>
             <Element Type="AnimationSet" ID="0x7">
                 <Name>AnimationParameters</Name>
             </Element>
             <Element Type="Int" ID="0x8">
-                <Name>Unknown 2</Name>
+                <Name>LaunchAnim</Name>
             </Element>
             <Element Type="Int" ID="0x9">
-                <Name>Unknown 3</Name>
+                <Name>AttractAnim</Name>
             </Element>
             <Element Type="Asset" ID="0xA">
-                <Name>Particle 1</Name>
+                <Name>Particle1</Name>
                 <TypeFilter>
                     <Element>PART</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Asset" ID="0xB">
-                <Name>Particle 2</Name>
+                <Name>Particle2</Name>
                 <TypeFilter>
                     <Element>PART</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Int" ID="0xC">
-                <Name>Always FFFFFFFF 1</Name>
+                <Name>Particle3</Name>
             </Element>
             <Element Type="Int" ID="0xD">
-                <Name>Always FFFFFFFF 2</Name>
+                <Name>Particle4</Name>
             </Element>
             <Element Type="Struct" ID="0xE" Archetype="DamageInfo">
-                <Name>DamageInfo 1</Name>
+                <Name>CrabDamage</Name>
             </Element>
             <Element Type="Float" ID="0xF">
-                <Name>Unknown 4</Name>
+                <Name>CrabDamageCooldown</Name>
             </Element>
             <Element Type="Struct" ID="0x10" Archetype="DamageInfo">
-                <Name>DamageInfo 2</Name>
+                <Name>ScarabExplodeDamage</Name>
             </Element>
             <Element Type="Float" ID="0x11">
-                <Name>Unknown 5</Name>
+                <Name>BoidRadius</Name>
             </Element>
             <Element Type="Float" ID="0x12">
-                <Name>Unknown 6</Name>
+                <Name>TouchRadius</Name>
             </Element>
             <Element Type="Float" ID="0x13">
-                <Name>Unknown 7</Name>
+                <Name>PlayerTouchRadius</Name>
             </Element>
             <Element Type="Float" ID="0x14">
-                <Name>Unknown 8</Name>
+                <Name>AnimPlaybackSpeed</Name>
             </Element>
             <Element Type="Int" ID="0x15">
-                <Name>Unknown 9</Name>
+                <Name>NumBoids</Name>
             </Element>
             <Element Type="Int" ID="0x16">
-                <Name>Unknown 10</Name>
+                <Name>MaxCreatedBoids</Name>
             </Element>
             <Element Type="Float" ID="0x17">
-                <Name>Unknown 11</Name>
+                <Name>SeparationRadius</Name>
             </Element>
             <Element Type="Float" ID="0x18">
-                <Name>Unknown 12</Name>
+                <Name>CohesionMagnitude</Name>
             </Element>
             <Element Type="Float" ID="0x19">
-                <Name>Unknown 13</Name>
+                <Name>AlignmentWeight</Name>
             </Element>
             <Element Type="Float" ID="0x1A">
-                <Name>Unknown 14</Name>
+                <Name>SeparationMagnitude</Name>
             </Element>
             <Element Type="Float" ID="0x1B">
-                <Name>Unknown 15</Name>
+                <Name>MoveToWaypointWeight</Name>
             </Element>
             <Element Type="Float" ID="0x1C">
-                <Name>Unknown 16</Name>
+                <Name>AttractionMagnitude</Name>
             </Element>
             <Element Type="Float" ID="0x1D">
-                <Name>Unknown 17</Name>
+                <Name>AttractionRadius</Name>
             </Element>
             <Element Type="Float" ID="0x1E">
-                <Name>Unknown 18</Name>
+                <Name>BoidGenRate</Name>
             </Element>
             <Element Type="Int" ID="0x1F">
-                <Name>Unknown 19</Name>
+                <Name>MaxLaunches</Name>
             </Element>
             <Element Type="Float" ID="0x20">
-                <Name>Unknown 20</Name>
+                <Name>ScarabBoxMargin</Name>
             </Element>
             <Element Type="Float" ID="0x21">
-                <Name>Unknown 21</Name>
+                <Name>ScarabScatterXYVelocity</Name>
             </Element>
             <Element Type="Float" ID="0x22">
-                <Name>Unknown 22</Name>
+                <Name>ScarabTimeToExplode</Name>
             </Element>
-            <Element Type="Struct" ID="0x23" Archetype="HealthInfo"/>
-            <Element Type="Struct" ID="0x24" Archetype="DamageVulnerability"/>
+            <Element Type="Struct" ID="0x23" Archetype="HealthInfo">
+                <Name>HealthInfo</Name>
+            </Element>
+            <Element Type="Struct" ID="0x24" Archetype="DamageVulnerability">
+                <Name>DamageVulnerability</Name>
+            </Element>
             <Element Type="Sound" ID="0x25">
-                <Name>Sound 1</Name>
+                <Name>LaunchSfx</Name>
             </Element>
             <Element Type="Sound" ID="0x26">
-                <Name>Sound 2</Name>
+                <Name>ScatterSfx</Name>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>39</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

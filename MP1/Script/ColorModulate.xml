@@ -7,10 +7,10 @@
                 <Name>Name</Name>
             </Element>
             <Element Type="Color" ID="0x1">
-                <Name>Color A</Name>
+                <Name>ColorA</Name>
             </Element>
             <Element Type="Color" ID="0x2">
-                <Name>Color B</Name>
+                <Name>ColorB</Name>
             </Element>
             <Element Type="Choice" ID="0x3">
                 <Name>BlendMode</Name>
@@ -48,6 +48,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>12</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <ActiveProperty>0x0B</ActiveProperty>

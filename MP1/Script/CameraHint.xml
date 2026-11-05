@@ -32,7 +32,7 @@
                     <Element Name="SpindleCamera" ID="0x8"/>
                 </Values>
             </Element>
-            <Element Type="Struct" ID="0x6" Archetype="CameraHintStruct">
+            <Element Type="Struct" ID="0x6" Archetype="CameraHintFlags">
                 <Name>BallCameraHints</Name>
             </Element>
             <Element Type="Struct" ID="0x7" Archetype="BoolFloat">
@@ -75,16 +75,17 @@
                 <Name>Elevation</Name>
             </Element>
             <Element Type="Float" ID="0x14">
-                <Name>InterpolateTime</Name>
+                <Name>ClampVelocityTime</Name>
             </Element>
             <Element Type="Float" ID="0x15">
-                <Name>ClampVelocityTime</Name>
+                <Name>InterpolateTime</Name>
             </Element>
             <Element Type="Float" ID="0x16">
                 <Name>ControlInterpolationDuration</Name>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>0-25</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

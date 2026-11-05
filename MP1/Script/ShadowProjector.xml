@@ -19,22 +19,23 @@
                 <Name>Shadow Offset</Name>
             </Element>
             <Element Type="Float" ID="0x5">
-                <Name>Unknown 4</Name>
+                <Name>ShadowHeight</Name>
             </Element>
             <Element Type="Float" ID="0x6">
-                <Name>Shadow Opacity</Name>
+                <Name>ShadowOpacity</Name>
             </Element>
             <Element Type="Float" ID="0x7">
-                <Name>Unknown 6</Name>
+                <Name>ShadowFadeTime</Name>
             </Element>
             <Element Type="Bool" ID="0x8">
-                <Name>Unknown 7</Name>
+                <Name>Persistent</Name>
             </Element>
             <Element Type="Int" ID="0x9">
-                <Name>Unknown 8</Name>
+                <Name>TextureSize</Name>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>10</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

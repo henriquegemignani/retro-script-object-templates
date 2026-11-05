@@ -196,6 +196,7 @@
             </Element>
             <Element Type="Asset" ID="0x28">
                 <Name>Particle 10</Name>
+                <LoadCondition>propCount &gt; 43</LoadCondition>
                 <TypeFilter>
                     <Element>PART</Element>
                 </TypeFilter>
@@ -211,6 +212,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>43+</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

@@ -7,7 +7,7 @@
                 <Name>Name</Name>
             </Element>
             <Element Type="Choice" ID="0x1">
-                <Name>FlavorType</Name>
+                <Name>Flavor</Name>
                 <Values>
                     <Element Name="Zero" ID="0x0"/>
                     <Element Name="One" ID="0x1"/>
@@ -32,13 +32,13 @@
                 <Name>AdvanceWpRadius</Name>
             </Element>
             <Element Type="Float" ID="0x9">
-                <Name>Unknown 1</Name>
+                <Name>WallTurnSpeed</Name>
             </Element>
             <Element Type="Float" ID="0xA">
                 <Name>AlignAngVel</Name>
             </Element>
             <Element Type="Float" ID="0xB">
-                <Name>Unknown 2</Name>
+                <Name>DownTurnSpeed</Name>
             </Element>
             <Element Type="Float" ID="0xC">
                 <Name>StuckTimeThreshold</Name>
@@ -81,6 +81,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>25</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x02</PositionProperty>

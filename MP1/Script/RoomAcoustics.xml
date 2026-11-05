@@ -101,6 +101,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>32</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <ActiveProperty>0x01</ActiveProperty>

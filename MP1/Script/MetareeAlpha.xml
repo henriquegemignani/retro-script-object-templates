@@ -17,7 +17,9 @@
             </Element>
             <Element Type="Struct" ID="0x4" Archetype="PatternedAITypedef"/>
             <Element Type="Struct" ID="0x5" Archetype="ActorParameters"/>
-            <Element Type="Struct" ID="0x6" Archetype="DamageInfo"/>
+            <Element Type="Struct" ID="0x6" Archetype="DamageInfo">
+                <Name>RadiusDamage</Name>
+            </Element>
             <Element Type="Float" ID="0x7">
                 <Name>DropHeight</Name>
             </Element>
@@ -35,6 +37,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>12</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

@@ -116,7 +116,7 @@
             <Element Type="Struct" ID="0x18" Archetype="DamageInfo">
                 <Name>DamageInfo 1</Name>
             </Element>
-            <Element Type="Struct" ID="0x19" Archetype="RidleyStruct1"/>
+            <Element Type="Struct" ID="0x19" Archetype="IntroBossAttack"/>
             <Element Type="Sound" ID="0x1A">
                 <Name>Sound ID 1</Name>
             </Element>
@@ -129,8 +129,8 @@
             <Element Type="Struct" ID="0x1C" Archetype="DamageInfo">
                 <Name>DamageInfo 2</Name>
             </Element>
-            <Element Type="Struct" ID="0x1D" Archetype="RidleyStruct2">
-                <Name>RidleyStruct2 1</Name>
+            <Element Type="Struct" ID="0x1D" Archetype="MirvMissileCameraShakeData">
+                <Name>MirvMissileCameraShakeData 1</Name>
             </Element>
             <Element Type="Asset" ID="0x1E">
                 <Name>WPSC 3</Name>
@@ -141,8 +141,8 @@
             <Element Type="Struct" ID="0x1F" Archetype="DamageInfo">
                 <Name>DamageInfo 3</Name>
             </Element>
-            <Element Type="Struct" ID="0x20" Archetype="RidleyStruct2">
-                <Name>RidleyStruct2 2</Name>
+            <Element Type="Struct" ID="0x20" Archetype="MirvMissileCameraShakeData">
+                <Name>MirvMissileCameraShakeData 2</Name>
             </Element>
             <Element Type="Sound" ID="0x21">
                 <Name>Sound ID 2</Name>
@@ -150,8 +150,8 @@
             <Element Type="Struct" ID="0x22" Archetype="DamageInfo">
                 <Name>DamageInfo 4</Name>
             </Element>
-            <Element Type="Struct" ID="0x23" Archetype="RidleyStruct2">
-                <Name>RidleyStruct2 3</Name>
+            <Element Type="Struct" ID="0x23" Archetype="MirvMissileCameraShakeData">
+                <Name>MirvMissileCameraShakeData 3</Name>
             </Element>
             <Element Type="Float" ID="0x24">
                 <Name>Unknown 18</Name>
@@ -191,9 +191,11 @@
             </Element>
             <Element Type="Struct" ID="0x2F" Archetype="DamageInfo">
                 <Name>DamageInfo 8</Name>
+                <LoadCondition>propCount &gt; 47</LoadCondition>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>47-48</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

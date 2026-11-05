@@ -21,19 +21,19 @@
                 <Name>AdvanceWpRadius</Name>
             </Element>
             <Element Type="Float" ID="0x7">
-                <Name>Unknown 2</Name>
+                <Name>WallTurnSpeed</Name>
             </Element>
             <Element Type="Float" ID="0x8">
                 <Name>AlignAngleVel</Name>
             </Element>
             <Element Type="Float" ID="0x9">
-                <Name>Unknown 4</Name>
+                <Name>DownTurnSpeed</Name>
             </Element>
             <Element Type="Float" ID="0xA">
                 <Name>PlayerObstructionMinDist</Name>
             </Element>
             <Element Type="Float" ID="0xB">
-                <Name>MoveFowardWeight </Name>
+                <Name>ForwardMoveWeight</Name>
             </Element>
             <Element Type="Asset" ID="0xC">
                 <Name>ModelRes</Name>
@@ -53,6 +53,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>16</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

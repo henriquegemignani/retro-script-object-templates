@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyTemplate ArchiveVer="4" Game="Prime">
     <PropertyArchetype Type="Struct">
-        <Name>RumbleEffectStruct</Name>
+        <Name>RumbleEffectFlags</Name>
         <SubProperties>
             <Element Type="Bool" ID="0x0">
-                <Name>Unknown 1</Name>
+                <Name>NonPositional</Name>
             </Element>
             <Element Type="Bool" ID="0x1">
-                <Name>Unknown 2</Name>
+                <Name>PositionAtSender</Name>
             </Element>
         </SubProperties>
     </PropertyArchetype>

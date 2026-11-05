@@ -18,37 +18,38 @@
             <Element Type="Struct" ID="0x4" Archetype="PatternedAITypedef"/>
             <Element Type="Struct" ID="0x5" Archetype="ActorParameters"/>
             <Element Type="Asset" ID="0x6">
-                <Name>Unknown 1</Name>
+                <Name>NeedleModel</Name>
                 <TypeFilter>
                     <Element>CMDL</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Asset" ID="0x7">
-                <Name>Unknown 2</Name>
+                <Name>NeedleWeapon</Name>
                 <TypeFilter>
                     <Element>WPSC</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Struct" ID="0x8" Archetype="DamageInfo">
-                <Name>DamageInfo 1</Name>
+                <Name>ProjectileDamage</Name>
             </Element>
             <Element Type="Struct" ID="0x9" Archetype="DamageInfo">
-                <Name>DamageInfo 2</Name>
+                <Name>DeathDamage</Name>
             </Element>
             <Element Type="Float" ID="0xA">
-                <Name>Unknown 3</Name>
+                <Name>AdvanceWpRadius</Name>
             </Element>
             <Element Type="Float" ID="0xB">
-                <Name>Unknown 4</Name>
+                <Name>AlignAngVel</Name>
             </Element>
             <Element Type="Float" ID="0xC">
-                <Name>Unknown 5</Name>
+                <Name>CollisionCloseMargin</Name>
             </Element>
             <Element Type="Float" ID="0xD">
-                <Name>Unknown 6</Name>
+                <Name>PlayerObstructionMinDist</Name>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>14</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

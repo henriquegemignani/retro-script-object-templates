@@ -6,8 +6,13 @@
             <Element Type="String" ID="0x0">
                 <Name>Name</Name>
             </Element>
-            <Element Type="Int" ID="0x1">
-                <Name>Unknown 1</Name>
+            <Element Type="Choice" ID="0x1">
+                <Name>Flavor</Name>
+                <Values>
+                    <Element Name="Zero" ID="0x0"/>
+                    <Element Name="One" ID="0x1"/>
+                    <Element Name="Two" ID="0x2"/>
+                </Values>
             </Element>
             <Element Type="Vector" ID="0x2">
                 <Name>Position</Name>
@@ -21,31 +26,31 @@
             <Element Type="Struct" ID="0x5" Archetype="PatternedAITypedef"/>
             <Element Type="Struct" ID="0x6" Archetype="ActorParameters"/>
             <Element Type="Float" ID="0x7">
-                <Name>Unknown 2</Name>
+                <Name>SuckForceMultiplier</Name>
             </Element>
             <Element Type="Float" ID="0x8">
-                <Name>Unknown 3</Name>
+                <Name>SuckAngle</Name>
             </Element>
             <Element Type="Float" ID="0x9">
-                <Name>Unknown 4</Name>
+                <Name>PlayerSuckRange</Name>
             </Element>
             <Element Type="Vector" ID="0xA">
-                <Name>Unknown 5</Name>
+                <Name>LocalShootDirection</Name>
             </Element>
             <Element Type="Float" ID="0xB">
-                <Name>Unknown 6</Name>
+                <Name>PlayerShootSpeed</Name>
             </Element>
             <Element Type="Float" ID="0xC">
-                <Name>Unknown 7</Name>
+                <Name>ShouldAttackWaitTime</Name>
             </Element>
             <Element Type="Float" ID="0xD">
-                <Name>Unknown 8</Name>
+                <Name>SpotPlayerWaitTime</Name>
             </Element>
             <Element Type="Struct" ID="0xE" Archetype="DamageInfo">
-                <Name>DamageInfo 1</Name>
+                <Name>PlayerShootDamage</Name>
             </Element>
             <Element Type="Struct" ID="0xF" Archetype="DamageInfo">
-                <Name>DamageInfo 2</Name>
+                <Name>DamageInfo2</Name>
             </Element>
             <Element Type="Asset" ID="0x10">
                 <Name>DCLN</Name>
@@ -55,6 +60,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>17</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x02</PositionProperty>

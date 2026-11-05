@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyTemplate ArchiveVer="4" Game="Prime">
     <PropertyArchetype Type="Struct">
-        <Name>PlayerHintStruct</Name>
+        <Name>PlayerHintFlags</Name>
         <SubProperties>
             <Element Type="Bool" ID="0x0">
                 <Name>Unknown 1</Name>
             </Element>
             <Element Type="Bool" ID="0x1">
-                <Name>Unknown 2</Name>
+                <Name>ControlDirOverride</Name>
                 <Description>Inverts morph ball controls?</Description>
             </Element>
             <Element Type="Bool" ID="0x2">
-                <Name>Unknown 3</Name>
+                <Name>ExtendTargetDistance</Name>
             </Element>
             <Element Type="Bool" ID="0x3">
-                <Name>Unknown 4</Name>
+                <Name>OutOfBallLookAtHint</Name>
             </Element>
             <Element Type="Bool" ID="0x4">
-                <Name>Unknown 5</Name>
+                <Name>SpiderBallControlXY</Name>
                 <Description>Affects Spider Ball controls in some situations.</Description>
             </Element>
             <Element Type="Bool" ID="0x5">
@@ -45,7 +45,7 @@
                 <Name>Activate X-Ray Visor</Name>
             </Element>
             <Element Type="Bool" ID="0xD">
-                <Name>Unknown 6</Name>
+                <Name>FreezePlayer</Name>
             </Element>
             <Element Type="Bool" ID="0xE">
                 <Name>Face Object On Unmorph</Name>
@@ -53,4 +53,5 @@
             </Element>
         </SubProperties>
     </PropertyArchetype>
+    <ExpectedPropertyCount>0-32</ExpectedPropertyCount>
 </PropertyTemplate>

@@ -48,9 +48,11 @@
             </Element>
             <Element Type="Bool" ID="0xE">
                 <Name>DisableOutOfInto</Name>
+                <LoadCondition>propCount &gt; 14</LoadCondition>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>14-15</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

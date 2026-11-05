@@ -16,7 +16,7 @@
                 <Name>Active</Name>
             </Element>
             <Element Type="Float" ID="0x4">
-                <Name>Field Of View</Name>
+                <Name>FieldOfView</Name>
             </Element>
             <Element Type="Int" ID="0x5">
                 <Name>Unknown</Name>
@@ -24,6 +24,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>6</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

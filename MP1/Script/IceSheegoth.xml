@@ -108,7 +108,7 @@
                 <Name>DamageInfo 3</Name>
             </Element>
             <Element Type="Sound" ID="0x1C">
-                <Name>Sound ID 1</Name>
+                <Name>CrackleSound</Name>
             </Element>
             <Element Type="Float" ID="0x1D">
                 <Name>Unknown 9</Name>
@@ -120,18 +120,18 @@
                 <Name>MaxInterestTime</Name>
             </Element>
             <Element Type="Asset" ID="0x20">
-                <Name>Texture</Name>
+                <Name>PlayerSteamTexture</Name>
                 <TypeFilter>
                     <Element>TXTR</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Sound" ID="0x21">
-                <Name>Sound ID 2</Name>
+                <Name>PlayerHitSound</Name>
             </Element>
             <Element Type="Asset" ID="0x22">
-                <Name>Particle 6</Name>
+                <Name>PlayerIceTexture</Name>
                 <TypeFilter>
-                    <Element>PART</Element>
+                    <Element>TXTR</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Bool" ID="0x23">
@@ -142,6 +142,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>37+</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

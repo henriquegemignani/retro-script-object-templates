@@ -53,6 +53,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>13</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

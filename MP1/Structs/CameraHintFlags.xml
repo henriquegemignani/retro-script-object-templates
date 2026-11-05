@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyTemplate ArchiveVer="4" Game="Prime">
     <PropertyArchetype Type="Struct">
-        <Name>CameraHintStruct</Name>
+        <Name>CameraHintFlags</Name>
         <SubProperties>
             <Element Type="Bool" ID="0x0">
                 <Name>CalculateCamPos</Name>
@@ -71,4 +71,5 @@
             </Element>
         </SubProperties>
     </PropertyArchetype>
+    <ExpectedPropertyCount>0-22</ExpectedPropertyCount>
 </PropertyTemplate>

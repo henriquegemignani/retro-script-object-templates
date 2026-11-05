@@ -6,8 +6,13 @@
             <Element Type="String" ID="0x0">
                 <Name>Name</Name>
             </Element>
-            <Element Type="Int" ID="0x1">
-                <Name>Unknown 1</Name>
+            <Element Type="Choice" ID="0x1">
+                <Name>Flavor</Name>
+                <Values>
+                    <Element Name="Zero" ID="0x0"/>
+                    <Element Name="One" ID="0x1"/>
+                    <Element Name="Two" ID="0x2"/>
+                </Values>
             </Element>
             <Element Type="Vector" ID="0x2">
                 <Name>Position</Name>
@@ -31,6 +36,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>10</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x02</PositionProperty>

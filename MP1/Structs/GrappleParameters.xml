@@ -16,7 +16,7 @@
                 <Name>GrappleSpringLength</Name>
             </Element>
             <Element Type="Float" ID="0x4">
-                <Name>Unknown</Name>
+                <Name>GrappleSpringTardis</Name>
             </Element>
             <Element Type="Float" ID="0x5">
                 <Name>SwingForce</Name>
@@ -41,4 +41,5 @@
             </Element>
         </SubProperties>
     </PropertyArchetype>
+    <ExpectedPropertyCount>12</ExpectedPropertyCount>
 </PropertyTemplate>

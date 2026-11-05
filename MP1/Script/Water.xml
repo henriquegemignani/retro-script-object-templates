@@ -249,12 +249,15 @@
             </Element>
             <Element Type="Short" ID="0x3D">
                 <Name>Ignore</Name>
+                <LoadCondition>only read if the preceding bool (0x3C) is true; followed by (width * height + 31) / 32 uint32 bitset words</LoadCondition>
             </Element>
             <Element Type="Short" ID="0x3E">
                 <Name>Ignore</Name>
+                <LoadCondition>only read if the preceding bool (0x3C) is true; followed by (width * height + 31) / 32 uint32 bitset words</LoadCondition>
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>63</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

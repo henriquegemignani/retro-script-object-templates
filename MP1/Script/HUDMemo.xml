@@ -15,6 +15,7 @@
             </Element>
             <Element Type="Choice" ID="0x3">
                 <Name>DisplayType</Name>
+                <LoadCondition>propCount == 6 (with 5 properties DisplayType is MessageBox and this property is absent)</LoadCondition>
                 <Values>
                     <Element Name="Status Message" ID="0x0"/>
                     <Element Name="Message Box" ID="0x1"/>
@@ -31,6 +32,7 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>5-6</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <ActiveProperty>0x05</ActiveProperty>

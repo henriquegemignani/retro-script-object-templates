@@ -6,8 +6,13 @@
             <Element Type="String" ID="0x0">
                 <Name>Name</Name>
             </Element>
-            <Element Type="Int" ID="0x1">
-                <Name>Unknown 1</Name>
+            <Element Type="Choice" ID="0x1">
+                <Name>Flavor</Name>
+                <Values>
+                    <Element Name="Zero" ID="0x0"/>
+                    <Element Name="One" ID="0x1"/>
+                    <Element Name="Two" ID="0x2"/>
+                </Values>
             </Element>
             <Element Type="Vector" ID="0x2">
                 <Name>Position</Name>
@@ -21,38 +26,42 @@
             <Element Type="Struct" ID="0x5" Archetype="PatternedAITypedef"/>
             <Element Type="Struct" ID="0x6" Archetype="ActorParameters"/>
             <Element Type="Bool" ID="0x7">
-                <Name>Unknown 2</Name>
+                <Name>Collider</Name>
+                <Description>Selects the collider type: set uses collider type One, unset Zero.</Description>
             </Element>
             <Element Type="Asset" ID="0x8">
-                <Name>Particle</Name>
+                <Name>GlowEffect</Name>
                 <TypeFilter>
                     <Element>PART</Element>
                 </TypeFilter>
             </Element>
             <Element Type="Float" ID="0x9">
-                <Name>Unknown 3</Name>
+                <Name>ChargeTime</Name>
             </Element>
             <Element Type="Float" ID="0xA">
-                <Name>Unknown 4</Name>
+                <Name>TimeOpen</Name>
             </Element>
             <Element Type="Float" ID="0xB">
-                <Name>Unknown 5</Name>
+                <Name>PlatformTime</Name>
             </Element>
             <Element Type="Float" ID="0xC">
-                <Name>Unknown 6</Name>
+                <Name>Unknown</Name>
             </Element>
             <Element Type="Float" ID="0xD">
-                <Name>Unknown 7</Name>
+                <Name>KnockOffForce</Name>
             </Element>
             <Element Type="Asset" ID="0xE">
-                <Name>WPSC</Name>
+                <Name>Weapon</Name>
                 <TypeFilter>
                     <Element>WPSC</Element>
                 </TypeFilter>
             </Element>
-            <Element Type="Struct" ID="0xF" Archetype="DamageInfo"/>
+            <Element Type="Struct" ID="0xF" Archetype="DamageInfo">
+                <Name>WeaponDamage</Name>
+            </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>16</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x02</PositionProperty>

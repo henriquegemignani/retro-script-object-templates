@@ -4,7 +4,9 @@
         <Name>ActorParameters</Name>
         <SubProperties>
             <Element Type="Struct" ID="0x0" Archetype="LightParameters"/>
-            <Element Type="Struct" ID="0x1" Archetype="ScannableParameters"/>
+            <Element Type="Struct" ID="0x1" Archetype="ScannableParameters">
+                <LoadCondition>propCount &gt; 5</LoadCondition>
+            </Element>
             <Element Type="Asset" ID="0x2">
                 <Name>XRayModel</Name>
                 <TypeFilter>
@@ -31,33 +33,43 @@
             </Element>
             <Element Type="Bool" ID="0x6">
                 <Name>UseGlobalRenderTime</Name>
+                <LoadCondition>propCount &gt; 7</LoadCondition>
                 <Description>Whether to use the global time provider when rendering. If false, uses the time since entity "Activate".</Description>
             </Element>
             <Element Type="Float" ID="0x7">
                 <Name>FadeInTime</Name>
+                <LoadCondition>propCount &gt; 8</LoadCondition>
                 <Description>Only used for Pickups and Platforms.</Description>
             </Element>
             <Element Type="Float" ID="0x8">
                 <Name>FadeOutTime</Name>
+                <LoadCondition>propCount &gt; 9</LoadCondition>
                 <Description>Only used for Pickups and Platforms.</Description>
             </Element>
-            <Element Type="Struct" ID="0x9" Archetype="VisorParameters"/>
+            <Element Type="Struct" ID="0x9" Archetype="VisorParameters">
+                <LoadCondition>propCount &gt; 6</LoadCondition>
+            </Element>
             <Element Type="Bool" ID="0xA">
                 <Name>ThermalHot</Name>
+                <LoadCondition>propCount &gt; 10</LoadCondition>
                 <Description>Whether to render as "Hot" in Thermal Visor.</Description>
             </Element>
             <Element Type="Bool" ID="0xB">
                 <Name>ForceRenderUnsorted</Name>
+                <LoadCondition>propCount &gt; 11</LoadCondition>
                 <Description>Forces unsorted (opaque) rendering.</Description>
             </Element>
             <Element Type="Bool" ID="0xC">
                 <Name>NoSortThermal</Name>
+                <LoadCondition>propCount &gt; 12</LoadCondition>
                 <Description>Forces unsorted (opaque) rendering in Thermal Visor.</Description>
             </Element>
             <Element Type="Float" ID="0xD">
                 <Name>ThermalDamageMag</Name>
+                <LoadCondition>propCount &gt; 13</LoadCondition>
                 <Description>0.0 - 1.0 = black, 1.0 - 2.0 = white (needs verification)</Description>
             </Element>
         </SubProperties>
     </PropertyArchetype>
+    <ExpectedPropertyCount>5-14</ExpectedPropertyCount>
 </PropertyTemplate>

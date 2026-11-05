@@ -64,7 +64,7 @@
                 <Name>RateCamDistRangeMax</Name>
             </Element>
             <Element Type="Float" ID="0x12">
-                <Name>RateCamDistRangeFarRate </Name>
+                <Name>RateCamDistRangeFarRate</Name>
             </Element>
             <Element Type="Bool" ID="0x13">
                 <Name>CombatVisorVisible</Name>
@@ -81,6 +81,7 @@
             <Element Type="Struct" ID="0x17" Archetype="LightParameters"/>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>24</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
         <PositionProperty>0x01</PositionProperty>

@@ -26,8 +26,10 @@
             </Element>
         </SubProperties>
     </Properties>
+    <ExpectedPropertyCount>7</ExpectedPropertyCount>
     <EditorProperties>
         <NameProperty>0x00</NameProperty>
+        <ActiveProperty>0x04</ActiveProperty>
     </EditorProperties>
     <RotationType>RotationDisabled</RotationType>
     <ScaleType>ScaleDisabled</ScaleType>

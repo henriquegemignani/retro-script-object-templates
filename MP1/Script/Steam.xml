@@ -42,7 +42,7 @@
             <Element Type="Bool" ID="0x6">
                 <Name>Active</Name>
             </Element>
-            <Element Type="Asset" ID="0x7">
+            <Element Type="Asset" ID="0x7" IgnoreDependenciesMlvl="True">
                 <Name>Texture</Name>
                 <TypeFilter>
                     <Element>TXTR</Element>

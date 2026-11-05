@@ -3,7 +3,7 @@
     <PropertyArchetype Type="Struct">
         <Name>ScannableParameters</Name>
         <SubProperties>
-            <Element Type="Asset" ID="0x0">
+            <Element Type="Asset" ID="0x0" IgnoreDependenciesMlvl="True">
                 <Name>Scan File</Name>
                 <TypeFilter>
                     <Element>SCAN</Element>

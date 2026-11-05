@@ -9,7 +9,7 @@
             <Element Type="Bool" ID="0x1">
                 <Name>Active</Name>
             </Element>
-            <Element Type="Asset" ID="0x2">
+            <Element Type="Asset" ID="0x2" IgnoreDependencies="True">
                 <Name>SongFile</Name>
                 <TypeFilter>
                     <Element>CSNG</Element>
